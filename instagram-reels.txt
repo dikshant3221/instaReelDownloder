@@ -1,0 +1,7 @@
+# Optional real-Reel source list (the app also searches automatically).
+# One public Instagram Reel URL per line.
+# Optional format: URL|topic-slug|known-public-view-count
+# Example:
+# https://www.instagram.com/reel/REAL_SHORTCODE/|banke-bihari-ji|25000
+#
+# No demo URLs are ever generated. Private or unverifiable Reels are skipped.

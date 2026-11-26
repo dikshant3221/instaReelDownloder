@@ -1,0 +1,7 @@
+{"timestamp":"00:00:06.282","source":"Server","level":"LOG","message":"[ViralDarshan DB] \"No DATABASE_URL configured — using the bundled database (fully automatic).\""}
+{"timestamp":"00:00:06.368","source":"Server","level":"LOG","message":"[ViralDarshan DB] \"Starting bundled in-process PostgreSQL (zero downloads, runs anywhere)…\""}
+{"timestamp":"00:00:06.957","source":"Server","level":"WARN","message":"[ViralDarshan DB] \"Persistent database at \\\"C:\\\\Users\\\\diksh\\\\AppData\\\\Local\\\\ViralDarshan\\\\pgdata\\\" failed (could not create unique index \\\"downloads_one_approved_per_topic_day_uq\\\"). Falling back to in-memory…\""}
+{"timestamp":"00:00:08.451","source":"Server","level":"WARN","message":"[ViralDarshan DB] \"Running on an IN-MEMORY database. The app works fully, but download history resets when the server restarts. To keep history, move this project to a folder path WITHOUT spaces or parentheses, then restart.\""}
+{"timestamp":"00:00:08.617","source":"Server","level":"LOG","message":"[ViralDarshan] autonomous scheduler armed (60s interval)."}
+{"timestamp":"00:00:08.618","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:18.332","source":"Server","level":"LOG","message":"○ Compiling / ..."}

@@ -1,0 +1,8 @@
+# ViralDarshan — Windows desktop agent dependencies
+tzdata>=2024.1               # REQUIRED on Windows: IANA timezone DB (Asia/Kolkata)
+PySide6>=6.7,<6.10          # desktop UI (Qt)
+yt-dlp>=2024.10.7           # public-content reel download (no login)
+instaloader>=4.12           # public hashtag discovery (best-effort)
+requests>=2.32              # provider connectivity checks
+pyinstaller>=6.10           # .exe packaging
+pytest>=8.3                 # test-suite
