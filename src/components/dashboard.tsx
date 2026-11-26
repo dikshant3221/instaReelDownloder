@@ -23,6 +23,7 @@ import {
   ShieldX,
   MonitorPlay,
   Link2,
+  Image as ImageIcon,
 } from "lucide-react";
 import type { Status } from "@/lib/types";
 import { fmtIN, fmtViews } from "@/lib/types";
@@ -32,9 +33,9 @@ import DownloadLibrary from "@/components/library";
 import RejectedView from "@/components/rejected";
 import YoutubeView from "@/components/youtube";
 import ManualUpload from "@/components/manual";
-import { DiscoveryModal, ProvidersModal, TopicsModal, WindowsModal } from "@/components/modals";
+import { ProvidersModal, ReferenceModal, WindowsModal } from "@/components/modals";
 
-type ModalKind = "discovery" | "providers" | "topics" | "windows" | null;
+type ModalKind = "reference" | "providers" | "windows" | null;
 type View = "overview" | "library" | "youtube" | "manual" | "rejected" | "activity";
 
 export default function Dashboard() {
@@ -134,8 +135,7 @@ export default function Dashboard() {
 
   const settingsItems: { label: string; icon: typeof KeyRound; onClick: () => void; alert?: boolean }[] = [
     { label: "AI Providers", icon: KeyRound, onClick: () => setModal("providers"), alert: needsKey },
-    { label: "Discovery", icon: Search, onClick: () => setModal("discovery") },
-    { label: "Topics", icon: SlidersHorizontal, onClick: () => setModal("topics") },
+    { label: "Reference Photos", icon: ImageIcon, onClick: () => setModal("reference") },
     { label: "Desktop App", icon: MonitorDown, onClick: () => setModal("windows") },
   ];
 
@@ -365,9 +365,6 @@ export default function Dashboard() {
                     <button className="btn w-full justify-start" onClick={() => setModal("providers")}>
                       <KeyRound size={15} /> Manage AI providers
                     </button>
-                    <button className="btn w-full justify-start" onClick={() => setModal("discovery")}>
-                      <Search size={15} /> Discovery settings
-                    </button>
                   </div>
 
                   <div className="mt-4 space-y-2 rounded-[var(--r)] border border-[var(--line)] bg-[var(--bg)] p-3.5 text-[12px]">
@@ -474,11 +471,8 @@ export default function Dashboard() {
         {modal === "providers" && status && (
           <ProvidersModal providers={status.providers} onClose={() => setModal(null)} onChanged={fetchStatus} />
         )}
-        {modal === "topics" && status && (
-          <TopicsModal topics={status.topics} onClose={() => setModal(null)} onChanged={fetchStatus} />
-        )}
-        {modal === "discovery" && (
-          <DiscoveryModal onClose={() => setModal(null)} onChanged={() => { void fetchStatus(); void engine("scan"); }} />
+        {modal === "reference" && status && (
+          <ReferenceModal topics={status.topics} onClose={() => setModal(null)} onChanged={fetchStatus} />
         )}
         {modal === "windows" && <WindowsModal onClose={() => setModal(null)} />}
       </AnimatePresence>

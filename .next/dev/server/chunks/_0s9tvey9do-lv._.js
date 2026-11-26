@@ -25,7 +25,7 @@ __turbopack_context__.v((parentImport) => {
 __turbopack_context__.v((parentImport) => {
     return Promise.all([
   "server/chunks/_0t7cd4ti-ow8-._.js",
-  "server/chunks/[root-of-the-server]__0_imbejkym58b._.js",
+  "server/chunks/[root-of-the-server]__03-cwmponofdi._.js",
   "server/chunks/[root-of-the-server]__20qm94tej2nro._.js"
 ].map((chunk) => __turbopack_context__.l(chunk))).then(() => {
         return parentImport("[project]/src/lib/youtube.ts [instrumentation] (ecmascript)");

@@ -247,10 +247,10 @@ export function ProvidersModal({
 }
 
 /* ------------------------------------------------------------------ */
-/* Topics                                                              */
+/* Deity reference photos + viral threshold (single mandir scope)      */
 /* ------------------------------------------------------------------ */
 
-export function TopicsModal({
+export function ReferenceModal({
   topics,
   onClose,
   onChanged,
@@ -259,21 +259,13 @@ export function TopicsModal({
   onClose: () => void;
   onChanged: () => void;
 }) {
-  // Local keyword edits overlay the server list — no state synced inside effects.
-  const [kw, setKw] = useState<Record<string, string[]>>({});
-  const [draft, setDraft] = useState<Record<string, string>>({});
-  // Per-topic reference photo: cache-busting version + busy flag.
   const [refVersion, setRefVersion] = useState<Record<string, number>>({});
   const [refCount, setRefCount] = useState<Record<string, number>>(
     Object.fromEntries(topics.map((t) => [t.slug, t.referenceImageSet ? 1 : 0])),
   );
   const [refBusy, setRefBusy] = useState<string | null>(null);
-
-  // Viral threshold (shown in millions) + add-topic field.
-  const [thresholdM, setThresholdM] = useState("");
+  const [thresholdM, setThresholdM] = useState("0.1");
   const [savingThreshold, setSavingThreshold] = useState(false);
-  const [newTopic, setNewTopic] = useState("");
-  const [addingTopic, setAddingTopic] = useState(false);
 
   useEffect(() => {
     void fetch("/api/settings")
@@ -283,70 +275,6 @@ export function TopicsModal({
       })
       .catch(() => {});
   }, []);
-
-  async function save(slug: string, keywords: string[]) {
-    await fetch("/api/topics", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ action: "update", slug, keywords }),
-    });
-    onChanged();
-  }
-
-  async function toggleEnabled(slug: string, enabled: boolean) {
-    await fetch("/api/topics", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ action: "update", slug, enabled }),
-    });
-    onChanged();
-  }
-
-  async function removeTopic(slug: string, name: string) {
-    if (!confirm(`Remove "${name}" from monitoring? Its download history is kept.`)) return;
-    await fetch("/api/topics", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ action: "delete", slug }),
-    });
-    onChanged();
-  }
-
-
-  async function addTopic() {
-    const name = newTopic.trim();
-    if (name.length < 2) return;
-    setAddingTopic(true);
-    const res = await fetch("/api/topics", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ action: "add", name }),
-    });
-    const j = await res.json().catch(() => ({ ok: false }));
-    setAddingTopic(false);
-    if (j.ok) {
-      setNewTopic("");
-      onChanged();
-    } else {
-      alert(j.error || "Could not add topic.");
-    }
-  }
-
-  async function saveThreshold() {
-    const m = Number(thresholdM);
-    if (!Number.isFinite(m) || m < 0) {
-      alert("Enter a number in millions (e.g. 1 for 1,000,000 views).");
-      return;
-    }
-    setSavingThreshold(true);
-    await fetch("/api/settings", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ minViews: Math.round(m * 1_000_000) }),
-    });
-    setSavingThreshold(false);
-    onChanged();
-  }
 
   async function uploadReference(slug: string, file: File) {
     if (file.size > 2_500_000) {
@@ -396,13 +324,29 @@ export function TopicsModal({
     }
   }
 
+  async function saveThreshold() {
+    const m = Number(thresholdM);
+    if (!Number.isFinite(m) || m < 0) {
+      alert("Enter a number in millions (e.g. 0.1 for 100,000 views).");
+      return;
+    }
+    setSavingThreshold(true);
+    await fetch("/api/settings", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ minViews: Math.round(m * 1_000_000) }),
+    });
+    setSavingThreshold(false);
+    onChanged();
+  }
+
   return (
-    <Shell title="Topics & criteria" sub="Enable/disable or add topics · set the viral threshold · upload reference photos" icon={FolderTree} onClose={onClose} wide>
+    <Shell title="Deity reference photos & viral filter" sub="Upload Vrindavan god images so the AI can verify the final download · set the view threshold" icon={FolderTree} onClose={onClose} wide>
       {/* Viral threshold */}
-      <div className="mb-3 rounded-[var(--r)] border border-[var(--line-2)] bg-[var(--surface-2)] p-4">
-        <div className="text-sm font-semibold text-[var(--ink)]">Viral threshold</div>
+      <div className="mb-4 rounded-[var(--r)] border border-[var(--line-2)] bg-[var(--surface-2)] p-4">
+        <div className="text-sm font-semibold text-[var(--ink)]">Viral threshold (in millions)</div>
         <div className="mt-0.5 text-[12px] text-[var(--ink-faint)]">
-          Only keep videos with more than this many views.
+          Only keep videos with more than this many views. 0.1 = 100,000 (1 lakh) · 1 = 1,000,000.
         </div>
         <div className="mt-3 flex flex-wrap items-center gap-2">
           <div className="relative">
@@ -422,7 +366,7 @@ export function TopicsModal({
             = {Number(thresholdM || 0) > 0 ? (Number(thresholdM) * 1_000_000).toLocaleString("en-IN") : "0"} views
           </span>
           <div className="ml-auto flex gap-1.5">
-            {[0.5, 1, 3, 5].map((m) => (
+            {[0.1, 0.5, 1].map((m) => (
               <button key={m} className="badge" onClick={() => setThresholdM(String(m))}>
                 {m}M
               </button>
@@ -434,47 +378,21 @@ export function TopicsModal({
         </div>
       </div>
 
-      {/* Add a new topic */}
-      <div className="mb-4 rounded-[var(--r)] border border-[var(--line-2)] bg-[var(--surface-2)] p-4">
-        <div className="text-sm font-semibold text-[var(--ink)]">Add a topic</div>
-        <div className="mt-2 flex gap-2">
-          <input
-            value={newTopic}
-            onChange={(e) => setNewTopic(e.target.value)}
-            onKeyDown={(e) => e.key === "Enter" && void addTopic()}
-            placeholder="e.g. Shri Radha Rani"
-            className="flex-1 rounded-[var(--r-sm)] border border-[var(--line-2)] bg-[var(--bg)] px-3 py-2 text-sm text-[var(--ink)] outline-none placeholder:text-[var(--ink-faint)]"
-          />
-          <button className="btn btn-primary !h-9" disabled={addingTopic || newTopic.trim().length < 2} onClick={() => void addTopic()}>
-            <Plus size={14} /> {addingTopic ? "Adding…" : "Add"}
-          </button>
-        </div>
-      </div>
-
-      <div className="mb-2 text-[12px] text-[var(--ink-faint)]">
-        {topics.filter((t) => t.enabled).length} of {topics.length} topics enabled · disabled topics are skipped during search.
-      </div>
+      {/* Reference photos per topic */}
       <div className="space-y-4">
         {topics.map((t) => {
-          const list = kw[t.slug] ?? t.keywords;
-          const visibleList = list.filter((keyword) => !/[\u0900-\u097F]/.test(keyword));
           const count = refCount[t.slug] ?? 0;
           const ver = refVersion[t.slug] ?? 0;
           const thumbs = Array.from({ length: count });
           return (
-            <div
-              key={t.slug}
-              className={`rounded-2xl border border-[var(--line)] p-4 transition-opacity ${t.enabled ? "" : "opacity-55"}`}
-            >
+            <div key={t.slug} className="rounded-2xl border border-[var(--line)] p-4">
               <div className="flex items-start gap-4">
-                {/* Multi-photo holder (#17): up to 3 reference photos */}
                 <div className="shrink-0">
                   <div className="flex gap-1.5">
                     {thumbs.map((_, i) => (
                       <div
                         key={i}
                         className="group relative h-16 w-16 overflow-hidden rounded-[var(--r-sm)] border border-[var(--line-2)] bg-[var(--surface-2)]"
-                        title="Click to remove this reference photo"
                       >
                         {/* eslint-disable-next-line @next/next/no-img-element */}
                         <img
@@ -512,78 +430,15 @@ export function TopicsModal({
                     />
                   </label>
                 </div>
-
                 <div className="min-w-0 flex-1">
-              <div className="flex items-start justify-between gap-3">
-                <div>
                   <div className="text-sm font-semibold text-[var(--ink)]">{t.name}</div>
-                  <div className="text-[11px] text-[var(--ink-faint)]">
-                    {count > 0 ? `${count} reference photo(s) — AI matches videos against them` : "No reference photo — add one for best accuracy"}
+                  <div className="mt-1 text-[12px] leading-relaxed text-[var(--ink-faint)]">
+                    Upload 1–3 clear photos of the deity/temple. The AI compares every final download
+                    against these images before it is allowed to upload — so only genuine Vrindavan
+                    deity videos reach your YouTube channel.
                   </div>
                 </div>
-                <div className="flex shrink-0 items-center gap-1.5">
-                  {/* Enable / disable toggle */}
-                  <button
-                    onClick={() => void toggleEnabled(t.slug, !t.enabled)}
-                    className={`badge ${t.enabled ? "badge-success" : "!text-[var(--ink-faint)]"}`}
-                    title={t.enabled ? "Enabled — click to disable" : "Disabled — click to enable"}
-                  >
-                    {t.enabled ? "Enabled" : "Disabled"}
-                  </button>
-                  <button
-                    onClick={() => void removeTopic(t.slug, t.name)}
-                    className="btn btn-ghost !h-6 !px-1.5 !text-[11px] hover:!text-[#fb7185]"
-                    title="Remove topic"
-                  >
-                    <Trash2 size={13} />
-                  </button>
-                </div>
               </div>
-              <div className="mt-3 flex flex-wrap gap-1.5">
-                {visibleList.map((k) => (
-                  <span key={k} className="chip group">
-                    <span>{k}</span>
-                    <button
-                      onClick={() => setKw((s) => ({ ...s, [t.slug]: list.filter((x) => x !== k) }))}
-                      className="opacity-40 transition-opacity hover:opacity-100"
-                    >
-                      <Trash2 size={9} />
-                    </button>
-                  </span>
-                ))}
-                <div className="flex items-center gap-1">
-                  <input
-                    value={draft[t.slug] ?? ""}
-                    onChange={(e) => setDraft((d) => ({ ...d, [t.slug]: e.target.value }))}
-                    onKeyDown={(e) => {
-                      if (e.key === "Enter" && (draft[t.slug] ?? "").trim()) {
-                        setKw((s) => ({ ...s, [t.slug]: [...list, draft[t.slug]!.trim()] }));
-                        setDraft((d) => ({ ...d, [t.slug]: "" }));
-                      }
-                    }}
-                    placeholder="add keyword…"
-                    className="w-28 rounded-full border border-dashed border-[var(--line)] bg-transparent px-3 py-1 text-[11px] text-[var(--ink)] outline-none placeholder:text-[var(--ink-faint)]"
-                  />
-                  <button
-                    className="btn !px-2 !py-1"
-                    onClick={() => {
-                      if ((draft[t.slug] ?? "").trim()) {
-                        setKw((s) => ({ ...s, [t.slug]: [...list, draft[t.slug]!.trim()] }));
-                        setDraft((d) => ({ ...d, [t.slug]: "" }));
-                      }
-                    }}
-                  >
-                    <Plus size={11} />
-                  </button>
-                </div>
-              </div>
-              <div className="mt-3 flex justify-end">
-                <button className="btn !py-1.5 !text-[11px]" onClick={() => save(t.slug, list)}>
-                  Save keywords
-                </button>
-              </div>
-                </div>{/* /min-w-0 flex-1 */}
-              </div>{/* /flex items-start */}
             </div>
           );
         })}
@@ -592,292 +447,6 @@ export function TopicsModal({
   );
 }
 
-/* ------------------------------------------------------------------ */
-/* Instagram discovery setup                                           */
-/* ------------------------------------------------------------------ */
-
-interface DiscoveryState {
-  apifyTokenSet: boolean;
-  apifyTokenPreview: string | null;
-  browser: string;
-  sourceUrls: string;
-  reliableDiscoveryReady: boolean;
-}
-
-export function DiscoveryModal({
-  onClose,
-  onChanged,
-}: {
-  onClose: () => void;
-  onChanged: () => void;
-}) {
-  const [state, setState] = useState<DiscoveryState | null>(null);
-  const [token, setToken] = useState("");
-  const [browser, setBrowser] = useState("none");
-  const [cookieBusy, setCookieBusy] = useState(false);
-  const [cookieNote, setCookieNote] = useState<string | null>(null);
-  const [sourceUrls, setSourceUrls] = useState("");
-  const [busy, setBusy] = useState(false);
-  const [message, setMessage] = useState("");
-
-  useEffect(() => {
-    void (async () => {
-      const r = await safeFetch<DiscoveryState>("/api/discovery");
-      if (r.data) {
-        setState(r.data);
-        setBrowser(r.data.browser || "none");
-        setSourceUrls(r.data.sourceUrls || "");
-      }
-    })();
-  }, []);
-
-  async function enableCookiesAndTest() {
-    setCookieBusy(true);
-    setCookieNote("Saving browser session and running a test scan… (up to 2 minutes)");
-    // 1) persist the browser choice
-    await fetch("/api/discovery", {
-      method: "POST",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify({ action: "save", browser }),
-    });
-    // 2) start a scan
-    const startedAt = Date.now();
-    await fetch("/api/engine", {
-      method: "POST",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify({ action: "scan" }),
-    });
-    // 3) poll until a scan finished AFTER we started, then report exact views
-    const poll = setInterval(async () => {
-      try {
-        const r = await fetch("/api/status");
-        const j = (await r.json()) as {
-          scanInsight?: { exactViews?: number; inspected: number; at: number } | null;
-        };
-        if (j.scanInsight && j.scanInsight.at >= startedAt - 2000 && Date.now() - startedAt > 8000) {
-          clearInterval(poll);
-          setCookieBusy(false);
-          setCookieNote(
-            j.scanInsight.exactViews && j.scanInsight.exactViews > 0
-              ? `Working — ${j.scanInsight.exactViews} reel(s) now have EXACT view counts from your browser session. The viral filter can now work properly.`
-              : `Still no exact view counts. Confirm you are logged into instagram.com in ${browser} (default profile), then press the button again.`,
-          );
-          onChanged();
-        }
-      } catch {
-        /* retry next tick */
-      }
-      if (Date.now() - startedAt > 180_000) {
-        clearInterval(poll);
-        setCookieBusy(false);
-        setCookieNote("Test scan timed out — press the button again.");
-      }
-    }, 8_000);
-  }
-
-  async function save() {
-    setBusy(true);
-    setMessage("");
-    const r = await safeFetch<{ ok: boolean; error?: string }>(
-      "/api/discovery",
-      {
-        method: "POST",
-        headers: { "content-type": "application/json" },
-        body: JSON.stringify({ action: "save", apifyToken: token, browser, sourceUrls }),
-      },
-      1,
-    );
-    setBusy(false);
-    if (r.data?.ok) {
-      setMessage("Saved. The next real-media scan will use these sources immediately.");
-      onChanged();
-    } else {
-      setMessage(r.data?.error || r.error || "Could not save yet.");
-    }
-  }
-
-  async function testApify() {
-    setBusy(true);
-    setMessage("");
-    const r = await safeFetch<{ ok: boolean; message?: string; error?: string }>(
-      "/api/discovery",
-      {
-        method: "POST",
-        headers: { "content-type": "application/json" },
-        body: JSON.stringify({ action: "test-apify", apifyToken: token }),
-      },
-      0,
-      20_000,
-    );
-    setBusy(false);
-    setMessage(r.data?.message || r.data?.error || r.error || "Test failed.");
-  }
-
-  return (
-    <Shell
-      title="Instagram Discovery Setup"
-      sub="One-time setup · reliable real Reels, public metrics and MP4 downloads"
-      icon={Search}
-      onClose={onClose}
-      wide
-    >
-      <div className="rounded-2xl border border-[rgba(239,68,68,0.35)] bg-[rgba(239,68,68,0.07)] p-4 text-xs leading-relaxed text-[#fca5a5]">
-        <b>Why setup is needed:</b> Instagram deliberately blocks anonymous keyword search and
-        often hides view counts. Public search engines are kept as a free fallback, but they can
-        return zero by region. A free Apify token is the recommended reliable source; it does not
-        require your Instagram password.
-      </div>
-
-      <div className="mt-5 rounded-2xl border border-[var(--line)] p-5">
-        <div className="flex flex-wrap items-center justify-between gap-3">
-          <div className="flex items-center gap-2.5">
-            <Globe2 size={16} className="text-[var(--gold)]" />
-            <div>
-              <div className="text-sm font-semibold text-[var(--ink)]">Recommended: Apify free token</div>
-              <div className="text-[11px] text-[var(--ink-faint)]">
-                exact public play counts + direct public MP4 URLs · monthly free credit
-              </div>
-            </div>
-          </div>
-          <a
-            href="https://console.apify.com/account/integrations"
-            target="_blank"
-            rel="noreferrer"
-            className="btn !py-1.5 !text-[11px]"
-          >
-            Get free token <ExternalLink size={11} />
-          </a>
-        </div>
-        <div className="mt-4 flex gap-2">
-          <div className="relative flex-1">
-            <KeyRound size={13} className="absolute left-3 top-1/2 -translate-y-1/2 text-[var(--ink-faint)]" />
-            <input
-              type="password"
-              value={token}
-              onChange={(e) => setToken(e.target.value)}
-              placeholder={state?.apifyTokenSet ? `Saved: ${state.apifyTokenPreview} (paste only to replace)` : "Paste apify_api_… token"}
-              className="w-full rounded-xl border border-[var(--line)] bg-[rgba(5,10,20,0.6)] py-2.5 pl-9 pr-3 text-xs text-[var(--ink)] outline-none placeholder:text-[var(--ink-faint)] focus:border-[var(--line-strong)]"
-            />
-          </div>
-          <button className="btn" disabled={busy || (!token && !state?.apifyTokenSet)} onClick={() => void testApify()}>
-            <FlaskConical size={12} /> Test
-          </button>
-        </div>
-      </div>
-
-      <div className="mt-4 rounded-2xl border border-[var(--line)] p-5">
-        <div className="flex items-center gap-2.5">
-          <ShieldCheck size={16} className="text-[#86efac]" />
-          <div>
-            <div className="text-sm font-semibold text-[var(--ink)]">Exact view counts — one-click setup</div>
-            <div className="text-[11px] text-[var(--ink-faint)]">
-              Without this, Instagram hides view counts and the viral filter has almost nothing to accept
-            </div>
-          </div>
-        </div>
-        <ol className="mt-3 space-y-1.5 text-[12px] text-[var(--ink-dim)]">
-          <li className="flex gap-2">
-            <span className="badge badge-accent shrink-0">1</span> Open Google Chrome and log in to instagram.com once
-          </li>
-          <li className="flex gap-2">
-            <span className="badge badge-accent shrink-0">2</span> Pick your browser below and press <b>Enable &amp; test scan</b>
-          </li>
-          <li className="flex gap-2">
-            <span className="badge badge-accent shrink-0">3</span> The app reads the session you already logged into — never your password
-          </li>
-        </ol>
-        <div className="mt-3 flex flex-wrap items-center gap-2">
-          <select
-            value={browser}
-            onChange={(e) => setBrowser(e.target.value)}
-            className="rounded-[var(--r-sm)] border border-[var(--line)] bg-[var(--bg)] px-3 py-2.5 text-xs text-[var(--ink)] outline-none"
-          >
-            <option value="none">Do not use browser cookies</option>
-            <option value="chrome">Google Chrome</option>
-            <option value="edge">Microsoft Edge</option>
-            <option value="firefox">Mozilla Firefox</option>
-            <option value="brave">Brave</option>
-          </select>
-          <button
-            className="btn btn-primary"
-            disabled={cookieBusy || browser === "none"}
-            onClick={() => void enableCookiesAndTest()}
-          >
-            {cookieBusy ? <Loader2 size={13} className="animate-spin" /> : <ShieldCheck size={13} />}
-            {cookieBusy ? "Running test scan…" : "Enable & test scan"}
-          </button>
-        </div>
-        {cookieNote && (
-          <div className="mt-3 rounded-[var(--r-sm)] border border-[var(--line)] bg-[var(--bg)] px-3 py-2.5 text-[12px] text-[var(--ink-dim)]">
-            {cookieNote}
-          </div>
-        )}
-        <p className="mt-2 text-[10px] leading-relaxed text-[var(--ink-faint)]">
-          Uses only the Instagram session already on this computer — never asks for or stores your
-          password, never bypasses private accounts.
-        </p>
-      </div>
-
-      {/* Compliance & safety panel (#27) — visible, honest, permanent */}
-      <div className="mt-4 rounded-[var(--r)] border border-[rgba(34,197,94,0.3)] bg-[rgba(34,197,94,0.06)] p-5">
-        <div className="flex items-center gap-2 text-sm font-semibold text-[#86efac]">
-          <ShieldCheck size={15} /> Compliance &amp; safety
-        </div>
-        <ul className="mt-2.5 space-y-1.5 text-[12px] leading-relaxed text-[var(--ink-dim)]">
-          <li className="flex gap-2">
-            <span className="text-[var(--gold)]">•</span> Only <b>public</b> content is read — never
-            bypasses login walls, private accounts or authentication.
-          </li>
-          <li className="flex gap-2">
-            <span className="text-[var(--gold)]">•</span> Requests are rate-limited with automatic
-            backoff; sources that hit limits are cooled down, not hammered.
-          </li>
-          <li className="flex gap--2 flex gap-2">
-            <span className="text-[var(--gold)]">•</span> Original creators are credited in every
-            description (Source line + claim-safe notice) — use claim-safe mode for Content ID safety.
-          </li>
-          <li className="flex gap-2">
-            <span className="text-[var(--gold)]">•</span> Instagram changes access rules without
-            notice (hashtag pages were login-walled recently) — discovery adapts or reports honestly
-            instead of faking results.
-          </li>
-          <li className="flex gap-2">
-            <span className="text-[var(--gold)]">•</span> Respect creators&apos; rights: this tool is
-            for personal archival/devotional use — obtain permission before any commercial use.
-          </li>
-        </ul>
-      </div>
-
-      <div className="mt-4 rounded-2xl border border-[var(--line)] p-5">
-        <div className="text-sm font-semibold text-[var(--ink)]">Optional real Reel URL inbox</div>
-        <div className="mt-1 text-[11px] text-[var(--ink-faint)]">
-          One public URL per line. The engine still verifies topic, metric, duplicate status and MP4 integrity.
-        </div>
-        <textarea
-          value={sourceUrls}
-          onChange={(e) => setSourceUrls(e.target.value)}
-          rows={5}
-          placeholder={"https://www.instagram.com/reel/SHORTCODE/\nhttps://www.instagram.com/reel/ANOTHER/|premanand-ji-maharaj|25000"}
-          className="console-mono mt-3 w-full resize-y rounded-xl border border-[var(--line)] bg-[rgba(5,10,20,0.6)] p-3 text-[11px] leading-relaxed text-[var(--ink)] outline-none placeholder:text-[var(--ink-faint)]"
-        />
-      </div>
-
-      {message && (
-        <div className="mt-4 rounded-xl border border-[var(--line)] bg-[rgba(96,165,250,0.06)] px-4 py-3 text-xs text-[var(--gold)]">
-          {message}
-        </div>
-      )}
-      <div className="mt-5 flex items-center justify-between gap-3">
-        <span className={`chip ${state?.reliableDiscoveryReady ? "!border-[rgba(34,197,94,.5)] !text-[#86efac]" : ""}`}>
-          {state?.reliableDiscoveryReady ? "reliable source configured" : "free public-search fallback only"}
-        </span>
-        <button className="btn btn-primary" disabled={busy} onClick={() => void save()}>
-          {busy ? "Saving…" : "Save & use on next scan"}
-        </button>
-      </div>
-    </Shell>
-  );
-}
 
 /* ------------------------------------------------------------------ */
 /* Windows desktop app guide                                           */

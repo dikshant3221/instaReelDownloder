@@ -68,6 +68,8 @@ export interface Status {
   istDate: string;
   engineRunning: boolean;
   dailyLimit: number;
+  uploadTarget: number;
+  uploadsToday: number;
   minViews: number;
   today: {
     count: number;

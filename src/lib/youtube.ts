@@ -7,6 +7,7 @@ import { downloads, topics, settings, aiProviders, activityLogs, manualUploads }
 import { istDate } from "@/lib/ist";
 import { pickStrategy, describeStrategy, type Strategy } from "@/lib/strategist";
 import { QUOTA_LIMIT } from "@/lib/youtube-stats";
+import { DAILY_LIMIT } from "@/lib/reels";
 import { planPublishSlots, PUBLISH_GAP_MS } from "@/lib/schedule";
 import {
   addQuota,
@@ -1369,14 +1370,44 @@ export async function uploadPendingBatch(): Promise<{ uploaded: number; failed: 
   const pending = rows.filter(
     (r) => !r.filePath || r.youtubeStatus === "none" || r.youtubeStatus === "failed",
   );
-  if (pending.length === 0) return { uploaded: 0, failed: 0 };
+
+  // Hard cap: 5 uploads total per IST day (manual + daily combined).
+  const dailyUploaded =
+    (
+      await db
+        .select({ n: sql<number>`count(*)::int` })
+        .from(downloads)
+        .where(and(eq(downloads.istDate, ist), eq(downloads.youtubeStatus, "uploaded")))
+    )[0]?.n ?? 0;
+  let manualUsed = 0;
+  try {
+    const raw = (await getSetting("manualUploadedToday", ""));
+    const [d, n] = raw.split("|");
+    if (d === ist) manualUsed = Number(n) || 0;
+  } catch {
+    manualUsed = 0;
+  }
+  const slots = Math.max(0, DAILY_LIMIT - (dailyUploaded + manualUsed));
+  const capped = pending.slice(0, slots);
+  if (capped.length < pending.length) {
+    await logYt(
+      "info",
+      `YouTube: daily cap 5/day — ${pending.length - capped.length} queued video(s) deferred to tomorrow (${dailyUploaded + manualUsed} already uploaded today).`,
+    );
+  }
+  if (capped.length === 0) {
+    if (pending.length > 0) {
+      await logYt("info", "YouTube: daily upload cap (5) reached — remaining videos stay queued for tomorrow.");
+    }
+    return { uploaded: 0, failed: 0 };
+  }
 
   uploading = true;
   let uploaded = 0;
   let failed = 0;
   try {
-    await logYt("info", `YouTube: starting upload of ${pending.length} video(s) — public in 15 minutes, location: India.`);
-    for (const row of pending) {
+    await logYt("info", `YouTube: starting upload of ${capped.length} of ${pending.length} queued video(s) (daily cap 5) — location: India.`);
+    for (const row of capped) {
       const token = await accessToken();
       if (!token) {
         failed++;

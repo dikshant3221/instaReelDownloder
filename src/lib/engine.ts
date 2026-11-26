@@ -4,7 +4,7 @@ import path from "node:path";
 import { db } from "@/db";
 import { downloads, scanRuns, topics, activityLogs, aiProviders, settings, manualUploads } from "@/db/schema";
 import { istDate, istYesterdayDate, nextIstMidnight, istFull } from "@/lib/ist";
-import { MIN_VIEWS, TopicSeed, selectDiverse } from "@/lib/reels";
+import { MIN_VIEWS, DAILY_LIMIT, FIND_DAILY, TopicSeed, selectDiverse, isVrindavanSource } from "@/lib/reels";
 import {
   dailyDownloadFolder,
   discoverRealCandidates,
@@ -21,73 +21,15 @@ import { notifyAsync, setSetting as setNotifySetting } from "@/lib/notify";
 
 const TOPIC_SEED = [
   {
-    slug: "banke-bihari-ji",
-    name: "Shri Banke Bihari Ji",
-    hindiName: "श्री बांके बिहारी जी",
-    folder: "Banke_Bihari_Ji",
+    slug: "vrindavan-mandir-deity",
+    name: "Vrindavan Temple & Deity",
+    hindiName: "",
+    folder: "Vrindavan_Mandir_Deity",
     keywords: [
-      "Banke Bihari", "बांके बिहारी", "Bihari Ji", "Banke Bihari Mandir",
-      "Vrindavan Darshan", "Nidhivan", "बिहारी जी", "#BankeBihari",
-    ],
-  },
-  {
-    slug: "radha-vallabh-ji",
-    name: "Shri Radha Vallabh Ji",
-    hindiName: "श्री राधावल्लभ जी",
-    folder: "Radha_Vallabh_Ji",
-    keywords: [
-      "Radha Vallabh", "राधावल्लभ", "RadhaRani", "Hit Radha Vallabh",
-      "Seva Kunj", "राधा रानी", "#RadhaVallabh",
-    ],
-  },
-  {
-    slug: "radha-raman-ji",
-    name: "Shri Radha Raman Ji",
-    hindiName: "श्री राधारमण जी",
-    folder: "Radha_Raman_Ji",
-    keywords: [
-      "Radha Raman", "राधारमण", "Radha Raman Mandir", "Shaligram deity",
-      "Radharaman", "राधा रमण मंदिर", "#RadhaRaman",
-    ],
-  },
-  {
-    slug: "radha-govind-dev-ji",
-    name: "Shri Radha Govind Dev Ji",
-    hindiName: "श्री राधा गोविन्द देव जी",
-    folder: "Radha_Govind_Dev_Ji",
-    keywords: [
-      "Govind Dev", "गोविन्द देव", "Radha Govind Dev", "Govindaji",
-      "Rupa Goswami deity", "गोविन्ददेव मंदिर", "#RadhaGovindDev",
-    ],
-  },
-  {
-    slug: "premanand-ji-maharaj",
-    name: "Premanand Ji Maharaj",
-    hindiName: "प्रेमानंद जी महाराज",
-    folder: "Premanand_Ji_Maharaj",
-    keywords: [
-      "Premanand Maharaj", "प्रेमानंद महाराज", "Premanand Ji Satsang",
-      "Ekantik Vartalap", "Radha Keli Kunj", "प्रेमानंद जी प्रवचन",
-    ],
-  },
-  {
-    slug: "indresh-ji-maharaj",
-    name: "Indresh Ji Maharaj",
-    hindiName: "इंद्रेश जी महाराज",
-    folder: "Indresh_Ji_Maharaj",
-    keywords: [
-      "Indresh Upadhyay", "इंद्रेश उपाध्याय", "Indresh Ji Katha",
-      "Bhagwat Katha", "Indresh Maharaj Pravachan", "इंद्रेश जी कथा",
-    ],
-  },
-  {
-    slug: "vinod-baba-ji",
-    name: "Vinod Baba Ji",
-    hindiName: "विनोद बाबा जी",
-    folder: "Vinod_Baba_Ji",
-    keywords: [
-      "Vinod Baba", "विनोद बाबा", "Vinod Baba Pravachan", "Braj Sant",
-      "Vinod Bihari", "विनोद बाबा प्रवचन",
+      "Vrindavan temple", "Banke Bihari Mandir", "Radha Raman Mandir",
+      "Govind Dev Mandir", "Radha Vallabh Mandir", "Vrindavan Darshan",
+      "#vrindavan", "#vrindavandarshan", "mathura vrindavan mandir",
+      "Vrindavan deity darshan", "Braj mandir", "Vrindavan mandir darshan",
     ],
   },
 ] as const;
@@ -419,10 +361,12 @@ export async function runScan(trigger: "manual" | "scheduled"): Promise<ScanOutc
       .update(downloads)
       .set({ aiVerdict: "match" })
       .where(sql`${downloads.status} = 'completed' AND ${downloads.aiVerdict} = 'pending'`);
-    const dailyLimit = await getDailyLimit();
+    const dailyLimit = Math.min(await getDailyLimit(), DAILY_LIMIT); // UPLOADS/day = 5
     const minViews = await getMinViews();
+    const findTarget = FIND_DAILY; // DOWNLOADS/day = 20
     const done = await todayCompleted(ist);
-    const remaining = Math.max(0, dailyLimit - done);
+    // Downloads target: 20/day (the 5/day upload target is enforced at upload time).
+    const remaining = Math.max(0, findTarget - done);
 
     const activeProvider = (
       await db.select().from(aiProviders).where(eq(aiProviders.active, true)).limit(1)
@@ -524,12 +468,17 @@ export async function runScan(trigger: "manual" | "scheduled"): Promise<ScanOutc
 
     // The real adapter has already verified public metrics. Keep this hard
     // gate as defense-in-depth; unknown/low-view Reels can never enter.
-    const eligible = candidates.filter((c) => c.viewCount > minViews);
+    // Mandir-only scope: temple/deity relevance (topic search), >1 lakh views,
+    // and the video must come from a Vrindavan-related CHANNEL (personal
+    // Instagram accounts are rejected).
+    const eligible = candidates.filter(
+      (c) => c.viewCount > minViews && isVrindavanSource(c.author, c.caption),
+    );
     logs.push([
       eligible.length > 0 ? "info" : "warn",
       eligible.length > 0
-        ? `Viral filter: ${eligible.length} public Reel(s) have a verified metric above ${minViews.toLocaleString("en-IN")}.`
-        : `No public Reel above ${minViews.toLocaleString("en-IN")} views this pass. Nothing fake will be downloaded or counted.`,
+        ? `Eligible: ${eligible.length} Reel(s) above ${minViews.toLocaleString("en-IN")} views from recognized Vrindavan channels (personal accounts rejected).`
+        : `No Vrindavan-channel Reel above ${minViews.toLocaleString("en-IN")} views this pass. Nothing fake will be downloaded.`,
     ]);
 
     // ---- Permanent dedupe ------------------------------------------
@@ -651,7 +600,7 @@ export async function runScan(trigger: "manual" | "scheduled"): Promise<ScanOutc
     );
 
     const after = await todayCompleted(ist);
-    const remainingAfter = Math.max(0, dailyLimit - after);
+    const remainingAfter = Math.max(0, findTarget - after);
     const message =
       remainingAfter === 0
         ? `All ${dailyLimit} enabled topic(s) complete (${after}/${dailyLimit}). Searching stops until IST midnight.`
@@ -857,7 +806,8 @@ export async function getStatus() {
   await ensureSeeded();
   await purgeLegacyPlaceholders();
   const ist = istDate();
-  const dailyLimit = await getDailyLimit();
+  const dailyLimit = FIND_DAILY;              // 20 videos found per day
+  const uploadTarget = Math.min(await getDailyLimit(), DAILY_LIMIT); // 5 uploads/day
   const minViews = await getMinViews();
   const yesterday = istYesterdayDate();
   const [runRowsDone] = await db
@@ -945,6 +895,19 @@ export async function getStatus() {
     scanInsight = null;
   }
 
+  const uploadsToday =
+    (
+      await db
+        .select({ n: sql<number>`count(*)::int` })
+        .from(downloads)
+        .where(
+          and(
+            eq(downloads.istDate, ist),
+            eq(downloads.youtubeStatus, "uploaded"),
+          ),
+        )
+    )[0]?.n ?? 0;
+
   const perTopicMap = new Map(perTopic.map((p) => [p.topic, p]));
 
   let quota: Awaited<ReturnType<typeof import("@/lib/youtube-stats").quotaSnapshot>> | null = null;
@@ -963,6 +926,8 @@ export async function getStatus() {
     istDate: ist,
     engineRunning: running,
     dailyLimit,
+    uploadTarget,
+    uploadsToday,
     minViews,
     today: {
       count: done,

@@ -173,6 +173,7 @@ ALTER TABLE manual_uploads ADD COLUMN IF NOT EXISTS strategy text;
 ALTER TABLE manual_uploads ADD COLUMN IF NOT EXISTS phash text;
 ALTER TABLE manual_uploads ADD COLUMN IF NOT EXISTS priority integer NOT NULL DEFAULT 0;
 ALTER TABLE manual_uploads ADD COLUMN IF NOT EXISTS ai_frame text;
+ALTER TABLE manual_uploads ADD COLUMN IF NOT EXISTS uploaded_day text;
 ALTER TABLE manual_uploads ADD COLUMN IF NOT EXISTS transcript text;
 
 CREATE TABLE IF NOT EXISTS video_stats (

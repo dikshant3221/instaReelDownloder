@@ -1,5 +1,5 @@
 import fs from "node:fs";
-import { asc, desc, eq, ne, sql } from "drizzle-orm";
+import { and, asc, desc, eq, ne, sql } from "drizzle-orm";
 import { db } from "@/db";
 import { manualUploads, activityLogs, downloads, topics, settings } from "@/db/schema";
 import {
@@ -154,6 +154,43 @@ export async function submitManualLinks(
 
 let processing = false;
 
+/**
+ * Uploads-per-day accounting across manual + daily videos. The user limit is
+ * 5 uploads per IST day total. Manual rows are DELETED after a successful
+ * upload (links are consumed), so the counter lives in settings.
+ */
+async function uploadsTodayTotal(): Promise<number> {
+  const today = istDate();
+  let manual = 0;
+  const raw = (await db.select().from(settings).where(eq(settings.key, "manualUploadedToday")).limit(1))[0]?.value;
+  if (raw) {
+    const [d, n] = raw.split("|");
+    if (d === today) manual = Number(n) || 0;
+  }
+  const daily =
+    (
+      await db
+        .select({ n: sql<number>`count(*)::int` })
+        .from(downloads)
+        .where(and(eq(downloads.istDate, today), eq(downloads.youtubeStatus, "uploaded")))
+    )[0]?.n ?? 0;
+  return manual + daily;
+}
+
+async function bumpManualUploadsToday(): Promise<void> {
+  const today = istDate();
+  let n = 0;
+  const raw = (await db.select().from(settings).where(eq(settings.key, "manualUploadedToday")).limit(1))[0]?.value;
+  if (raw) {
+    const [d, v] = raw.split("|");
+    if (d === today) n = Number(v) || 0;
+  }
+  await db
+    .insert(settings)
+    .values({ key: "manualUploadedToday", value: `${today}|${n + 1}` })
+    .onConflictDoUpdate({ target: settings.key, set: { value: `${today}|${n + 1}` } });
+}
+
 /** Downloads + uploads queued manual videos. Idempotent and crash-safe. */
 export async function processManualQueue(): Promise<void> {
   if (processing) return;
@@ -301,6 +338,12 @@ export async function processManualQueue(): Promise<void> {
       }
       if (!filePath) return;
 
+      // 5 uploads per IST day across everything — remaining rows wait for tomorrow.
+      if ((await uploadsTodayTotal()) >= MANUAL_DAILY_CAP) {
+        await logManual("info", `Manual: daily upload limit (5) reached — ${row.videoId} stays queued for tomorrow.`);
+        return;
+      }
+
       await db
         .update(manualUploads)
         .set({ status: "uploading", updatedAt: new Date() })
@@ -331,25 +374,22 @@ export async function processManualQueue(): Promise<void> {
           sourceUrl: row.url,
           playlistName: matched?.name ?? "Vrindavan Devotional Reel",
         });
-        await db
-          .update(manualUploads)
-          .set({
-            status: "uploaded",
-            youtubeId: id,
-            youtubeUrl: `https://www.youtube.com/watch?v=${id}`,
-            youtubeTitle: heading.title,
-            strategy: heading.strategy ?? null,
-            transcript: transcript || null,
-            publishAt: new Date(publishAt),
-            updatedAt: new Date(),
-            error: null,
-          })
-          .where(eq(manualUploads.id, row.id));
+        if (alreadyOnChannel) {
+          // Already on the channel → this link is consumed: DELETE it and
+          // continue with the next queued video (no duplicate upload).
+          await db.delete(manualUploads).where(eq(manualUploads.id, row.id));
+          await logManual(
+            "ok",
+            `Manual: ${row.videoId} is ALREADY on your YouTube channel (${id}) — link deleted, next queued video will be used.`,
+          );
+          return;
+        }
+        // Success: count toward the 5/day cap, then consume (delete) the link.
+        await bumpManualUploadsToday();
+        await db.delete(manualUploads).where(eq(manualUploads.id, row.id));
         await logManual(
           "ok",
-          alreadyOnChannel
-            ? `Manual: ${row.videoId} is ALREADY on your YouTube channel (${id}) — upload skipped, never duplicated.`
-            : `Manual: "${heading.title}" uploaded → public at ${new Date(publishAt).toLocaleTimeString("en-IN", { timeZone: "Asia/Kolkata" })} IST. https://www.youtube.com/watch?v=${id}`,
+          `Manual: "${heading.title}" uploaded → public at ${new Date(publishAt).toLocaleTimeString("en-IN", { timeZone: "Asia/Kolkata" })} IST. Link consumed & deleted. https://www.youtube.com/watch?v=${id}`,
         );
       } catch (e) {
         const msg = e instanceof Error ? e.message : String(e);

@@ -186,6 +186,7 @@ export const manualUploads = pgTable(
     strategy: text("strategy"),
     phash: text("phash"),
     priority: integer("priority").notNull().default(0), // lower = processed first
+    uploadedDay: text("uploaded_day"), // IST day this row was uploaded (counted toward the 5/day cap)
     aiFrame: text("ai_frame"),
     transcript: text("transcript"),
     error: text("error"),

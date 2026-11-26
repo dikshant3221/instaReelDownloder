@@ -516,6 +516,7 @@ async function fetchIgTagReels(topic: TopicSeed): Promise<IndexedReel[]> {
 async function searchUrls(
   topics: TopicSeed[],
   scanIndex: number,
+  deadlineMs: number,
 ): Promise<{ found: Map<string, TopicSeed>; viewsBy: Map<string, number>; diagnostic: string }> {
   const found = new Map<string, TopicSeed>();
   const sourceHits: Record<string, number> = {};
@@ -539,6 +540,7 @@ async function searchUrls(
   await Promise.all(
     topics.map(async (t) => {
       let topicFound = 0;
+      if (Date.now() > deadlineMs) return; // hard time budget — never exceed ~2 min per scan
 
       // 1) FREE primary source: Instagram's own hashtag page via reader proxy.
       const tagUrls = await fetchIgTagReels(t);
@@ -585,6 +587,7 @@ async function searchUrls(
         );
         void saveSourceStats(stats);
         for (const { label, urls } of results) {
+          if (Date.now() > deadlineMs) break;
           for (const item of urls.slice(0, 8)) {
             if (topicFound >= 8) break;
             if (take(item, t, label)) topicFound++;
@@ -717,6 +720,8 @@ export async function discoverRealCandidates(
 }> {
   const byId = new Map<string, RealCandidate>();
   const threshold = options.minViews ?? MIN_VIEWS;
+  // Hard time budget: discovery must finish well within 2 minutes.
+  const discoveryDeadline = Date.now() + 60_000;
   const stats: InspectStats = {
     inspected: 0,
     eligible: 0,
@@ -747,7 +752,7 @@ export async function discoverRealCandidates(
 
   let searchDiagnostic = "public search not needed";
   if (byId.size < 18) {
-    const searched = await searchUrls(topics, scanIndex);
+    const searched = await searchUrls(topics, scanIndex, discoveryDeadline);
     searchDiagnostic = searched.diagnostic;
     // Cap how many candidates per topic we inspect (we only need 1 each),
     // which keeps the slow yt-dlp metadata step short.

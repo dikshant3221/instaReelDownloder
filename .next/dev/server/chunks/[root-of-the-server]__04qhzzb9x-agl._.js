@@ -332,6 +332,7 @@ const manualUploads = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_m
     strategy: (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$drizzle$2d$orm$2f$pg$2d$core$2f$columns$2f$text$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["text"])("strategy"),
     phash: (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$drizzle$2d$orm$2f$pg$2d$core$2f$columns$2f$text$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["text"])("phash"),
     priority: (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$drizzle$2d$orm$2f$pg$2d$core$2f$columns$2f$integer$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["integer"])("priority").notNull().default(0),
+    uploadedDay: (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$drizzle$2d$orm$2f$pg$2d$core$2f$columns$2f$text$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["text"])("uploaded_day"),
     aiFrame: (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$drizzle$2d$orm$2f$pg$2d$core$2f$columns$2f$text$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["text"])("ai_frame"),
     transcript: (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$drizzle$2d$orm$2f$pg$2d$core$2f$columns$2f$text$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["text"])("transcript"),
     error: (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$drizzle$2d$orm$2f$pg$2d$core$2f$columns$2f$text$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["text"])("error"),
@@ -819,106 +820,23 @@ var __turbopack_async_dependencies__ = __turbopack_handle_async_dependencies__([
 ;
 /* ------------------------------------------------------------------ */ /* Seed data                                                           */ /* ------------------------------------------------------------------ */ const TOPIC_SEED = [
     {
-        slug: "banke-bihari-ji",
-        name: "Shri Banke Bihari Ji",
-        hindiName: "श्री बांके बिहारी जी",
-        folder: "Banke_Bihari_Ji",
+        slug: "vrindavan-mandir-deity",
+        name: "Vrindavan Temple & Deity",
+        hindiName: "",
+        folder: "Vrindavan_Mandir_Deity",
         keywords: [
-            "Banke Bihari",
-            "बांके बिहारी",
-            "Bihari Ji",
+            "Vrindavan temple",
             "Banke Bihari Mandir",
-            "Vrindavan Darshan",
-            "Nidhivan",
-            "बिहारी जी",
-            "#BankeBihari"
-        ]
-    },
-    {
-        slug: "radha-vallabh-ji",
-        name: "Shri Radha Vallabh Ji",
-        hindiName: "श्री राधावल्लभ जी",
-        folder: "Radha_Vallabh_Ji",
-        keywords: [
-            "Radha Vallabh",
-            "राधावल्लभ",
-            "RadhaRani",
-            "Hit Radha Vallabh",
-            "Seva Kunj",
-            "राधा रानी",
-            "#RadhaVallabh"
-        ]
-    },
-    {
-        slug: "radha-raman-ji",
-        name: "Shri Radha Raman Ji",
-        hindiName: "श्री राधारमण जी",
-        folder: "Radha_Raman_Ji",
-        keywords: [
-            "Radha Raman",
-            "राधारमण",
             "Radha Raman Mandir",
-            "Shaligram deity",
-            "Radharaman",
-            "राधा रमण मंदिर",
-            "#RadhaRaman"
-        ]
-    },
-    {
-        slug: "radha-govind-dev-ji",
-        name: "Shri Radha Govind Dev Ji",
-        hindiName: "श्री राधा गोविन्द देव जी",
-        folder: "Radha_Govind_Dev_Ji",
-        keywords: [
-            "Govind Dev",
-            "गोविन्द देव",
-            "Radha Govind Dev",
-            "Govindaji",
-            "Rupa Goswami deity",
-            "गोविन्ददेव मंदिर",
-            "#RadhaGovindDev"
-        ]
-    },
-    {
-        slug: "premanand-ji-maharaj",
-        name: "Premanand Ji Maharaj",
-        hindiName: "प्रेमानंद जी महाराज",
-        folder: "Premanand_Ji_Maharaj",
-        keywords: [
-            "Premanand Maharaj",
-            "प्रेमानंद महाराज",
-            "Premanand Ji Satsang",
-            "Ekantik Vartalap",
-            "Radha Keli Kunj",
-            "प्रेमानंद जी प्रवचन"
-        ]
-    },
-    {
-        slug: "indresh-ji-maharaj",
-        name: "Indresh Ji Maharaj",
-        hindiName: "इंद्रेश जी महाराज",
-        folder: "Indresh_Ji_Maharaj",
-        keywords: [
-            "Indresh Upadhyay",
-            "इंद्रेश उपाध्याय",
-            "Indresh Ji Katha",
-            "Bhagwat Katha",
-            "Indresh Maharaj Pravachan",
-            "इंद्रेश जी कथा"
-        ]
-    },
-    {
-        slug: "vinod-baba-ji",
-        name: "Vinod Baba Ji",
-        hindiName: "विनोद बाबा जी",
-        folder: "Vinod_Baba_Ji",
-        keywords: [
-            "Vinod Baba",
-            "विनोद बाबा",
-            "Vinod Baba Pravachan",
-            "Braj Sant",
-            "Vinod Bihari",
-            "विनोद बाबा प्रवचन"
+            "Govind Dev Mandir",
+            "Radha Vallabh Mandir",
+            "Vrindavan Darshan",
+            "#vrindavan",
+            "#vrindavandarshan",
+            "mathura vrindavan mandir",
+            "Vrindavan deity darshan",
+            "Braj mandir",
+            "Vrindavan mandir darshan"
         ]
     }
 ];
@@ -1203,10 +1121,12 @@ async function runScan(trigger) {
         await __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$db$2f$index$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["db"].update(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$db$2f$schema$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["downloads"]).set({
             aiVerdict: "match"
         }).where(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$drizzle$2d$orm$2f$sql$2f$sql$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["sql"]`${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$db$2f$schema$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["downloads"].status} = 'completed' AND ${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$db$2f$schema$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["downloads"].aiVerdict} = 'pending'`);
-        const dailyLimit = await getDailyLimit();
+        const dailyLimit = Math.min(await getDailyLimit(), __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$reels$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["DAILY_LIMIT"]); // UPLOADS/day = 5
         const minViews = await getMinViews();
+        const findTarget = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$reels$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["FIND_DAILY"]; // DOWNLOADS/day = 20
         const done = await todayCompleted(ist);
-        const remaining = Math.max(0, dailyLimit - done);
+        // Downloads target: 20/day (the 5/day upload target is enforced at upload time).
+        const remaining = Math.max(0, findTarget - done);
         const activeProvider = (await __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$db$2f$index$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["db"].select().from(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$db$2f$schema$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["aiProviders"]).where((0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$drizzle$2d$orm$2f$sql$2f$expressions$2f$conditions$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["eq"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$db$2f$schema$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["aiProviders"].active, true)).limit(1))[0];
         const aiNote = aiReady && activeProvider?.apiKey ? `AI enhancements ON (${activeProvider.name}): manual content checks, transcripts, viral titles` : "AI key not configured — auto-collection runs WITHOUT AI (no content rejection); manual uploads need a key for their content check";
         const [run] = await __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$db$2f$index$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["db"].insert(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$db$2f$schema$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["scanRuns"]).values({
@@ -1311,10 +1231,13 @@ async function runScan(trigger) {
         }
         // The real adapter has already verified public metrics. Keep this hard
         // gate as defense-in-depth; unknown/low-view Reels can never enter.
-        const eligible = candidates.filter((c)=>c.viewCount > minViews);
+        // Mandir-only scope: temple/deity relevance (topic search), >1 lakh views,
+        // and the video must come from a Vrindavan-related CHANNEL (personal
+        // Instagram accounts are rejected).
+        const eligible = candidates.filter((c)=>c.viewCount > minViews && (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$reels$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["isVrindavanSource"])(c.author, c.caption));
         logs.push([
             eligible.length > 0 ? "info" : "warn",
-            eligible.length > 0 ? `Viral filter: ${eligible.length} public Reel(s) have a verified metric above ${minViews.toLocaleString("en-IN")}.` : `No public Reel above ${minViews.toLocaleString("en-IN")} views this pass. Nothing fake will be downloaded or counted.`
+            eligible.length > 0 ? `Eligible: ${eligible.length} Reel(s) above ${minViews.toLocaleString("en-IN")} views from recognized Vrindavan channels (personal accounts rejected).` : `No Vrindavan-channel Reel above ${minViews.toLocaleString("en-IN")} views this pass. Nothing fake will be downloaded.`
         ]);
         // ---- Permanent dedupe ------------------------------------------
         const fresh = [];
@@ -1467,7 +1390,7 @@ async function runScan(trigger) {
             }
         }));
         const after = await todayCompleted(ist);
-        const remainingAfter = Math.max(0, dailyLimit - after);
+        const remainingAfter = Math.max(0, findTarget - after);
         const message = remainingAfter === 0 ? `All ${dailyLimit} enabled topic(s) complete (${after}/${dailyLimit}). Searching stops until IST midnight.` : downloaded === 0 ? `No approved video found for the remaining ${remainingAfter} topic(s) this scan — will keep searching only those topics.` : `Added ${downloaded} topic video(s). ${remainingAfter} topic(s) still need a video.`;
         await __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$db$2f$index$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["db"].update(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$db$2f$schema$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["scanRuns"]).set({
             status: "finished",
@@ -1646,7 +1569,8 @@ async function getStatus() {
     await ensureSeeded();
     await purgeLegacyPlaceholders();
     const ist = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$ist$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["istDate"])();
-    const dailyLimit = await getDailyLimit();
+    const dailyLimit = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$reels$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["FIND_DAILY"]; // 20 videos found per day
+    const uploadTarget = Math.min(await getDailyLimit(), __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$reels$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["DAILY_LIMIT"]); // 5 uploads/day
     const minViews = await getMinViews();
     const yesterday = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$ist$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["istYesterdayDate"])();
     const [runRowsDone] = await __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$db$2f$index$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["db"].select({
@@ -1686,6 +1610,9 @@ async function getStatus() {
     } catch  {
         scanInsight = null;
     }
+    const uploadsToday = (await __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$db$2f$index$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["db"].select({
+        n: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$drizzle$2d$orm$2f$sql$2f$sql$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["sql"]`count(*)::int`
+    }).from(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$db$2f$schema$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["downloads"]).where((0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$drizzle$2d$orm$2f$sql$2f$expressions$2f$conditions$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["and"])((0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$drizzle$2d$orm$2f$sql$2f$expressions$2f$conditions$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["eq"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$db$2f$schema$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["downloads"].istDate, ist), (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$drizzle$2d$orm$2f$sql$2f$expressions$2f$conditions$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["eq"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$db$2f$schema$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["downloads"].youtubeStatus, "uploaded"))))[0]?.n ?? 0;
     const perTopicMap = new Map(perTopic.map((p)=>[
             p.topic,
             p
@@ -1705,6 +1632,8 @@ async function getStatus() {
         istDate: ist,
         engineRunning: running,
         dailyLimit,
+        uploadTarget,
+        uploadsToday,
         minViews,
         today: {
             count: done,
@@ -2194,7 +2123,7 @@ async function fetchIgTagReels(topic) {
     }
     return merged;
 }
-async function searchUrls(topics, scanIndex) {
+async function searchUrls(topics, scanIndex, deadlineMs) {
     const found = new Map();
     const sourceHits = {};
     const sourceOk = {};
@@ -2213,6 +2142,7 @@ async function searchUrls(topics, scanIndex) {
     // Search every topic in PARALLEL (each topic is independent).
     await Promise.all(topics.map(async (t)=>{
         let topicFound = 0;
+        if (Date.now() > deadlineMs) return; // hard time budget — never exceed ~2 min per scan
         // 1) FREE primary source: Instagram's own hashtag page via reader proxy.
         const tagUrls = await fetchIgTagReels(t);
         if (tagUrls.length > 0) sourceOk["ig-tag"] = (sourceOk["ig-tag"] ?? 0) + 1;
@@ -2262,6 +2192,7 @@ async function searchUrls(topics, scanIndex) {
             }));
             void saveSourceStats(stats);
             for (const { label, urls } of results){
+                if (Date.now() > deadlineMs) break;
                 for (const item of urls.slice(0, 8)){
                     if (topicFound >= 8) break;
                     if (take(item, t, label)) topicFound++;
@@ -2359,6 +2290,8 @@ async function mapLimited(items, concurrency, fn) {
 async function discoverRealCandidates(topics, scanIndex, options = {}) {
     const byId = new Map();
     const threshold = options.minViews ?? __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$reels$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["MIN_VIEWS"];
+    // Hard time budget: discovery must finish well within 2 minutes.
+    const discoveryDeadline = Date.now() + 60_000;
     const stats = {
         inspected: 0,
         eligible: 0,
@@ -2377,7 +2310,7 @@ async function discoverRealCandidates(topics, scanIndex, options = {}) {
     for (const c of configuredInspected)if (c) byId.set(c.videoId, c);
     let searchDiagnostic = "public search not needed";
     if (byId.size < 18) {
-        const searched = await searchUrls(topics, scanIndex);
+        const searched = await searchUrls(topics, scanIndex, discoveryDeadline);
         searchDiagnostic = searched.diagnostic;
         // Cap how many candidates per topic we inspect (we only need 1 each),
         // which keeps the slow yt-dlp metadata step short.
@@ -2826,16 +2759,71 @@ function isVisuallySimilar(a, b) {
 "[project]/src/lib/reels.ts [app-route] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/** Shared Reel types + strict daily constraints. No demo/fake discovery lives here. */ __turbopack_context__.s([
+/** Shared Reel types + strict daily constraints. No demo/fake discovery lives here. */ /**
+ * Vrindavan channel filter: only reels from recognized temple/spiritual
+ * CHANNELS are eligible — personal Instagram accounts are rejected.
+ *
+ * 1. Positive allowlist of known official Vrindavan temple/darshan handles.
+ * 2. Otherwise BOTH the handle AND the caption must carry temple/channel
+ *    markers (e.g. "@x_mandir" + "Vrindavan darshan") — a personal handle
+ *    posting temple content once does not pass.
+ */ __turbopack_context__.s([
     "DAILY_LIMIT",
     ()=>DAILY_LIMIT,
+    "FIND_DAILY",
+    ()=>FIND_DAILY,
     "MIN_VIEWS",
     ()=>MIN_VIEWS,
+    "VRINDAVAN_CHANNELS",
+    ()=>VRINDAVAN_CHANNELS,
+    "isVrindavanSource",
+    ()=>isVrindavanSource,
     "selectDiverse",
     ()=>selectDiverse
 ]);
-const DAILY_LIMIT = 7; // exactly one approved video for each of 7 topics
-const MIN_VIEWS = 1_000_000; // strictly MORE than this verified public metric (1M+)
+const VRINDAVAN_CHANNELS = new Set([
+    "banke_bihari_mandir_official",
+    "bankebiharimandirofficial",
+    "vrindavan.reels",
+    "vrindavan_bankebihari",
+    "shri_vrindavan_ji_official",
+    "shrihitradhavallabhmandir",
+    "shrihitradhavallabhlal",
+    "shriradhavallabhmandir",
+    "office_radharaman",
+    "shri_radharaman_lal_ju",
+    "radharamanji.temple",
+    "govind_dev_ji_temple",
+    "govind_dev_ji_",
+    "govinddevji_daily_darshan",
+    "premanand__maharaj_official",
+    "premanandji_.maharaj_official",
+    "premanand_ji_maharaj_121",
+    "bhaktipath",
+    "jaishreebhagwan1950",
+    "vrindavan.darshan",
+    "banke_bihari_bhakt",
+    "bihari_ji_ki_gali",
+    "vrindavan_ras",
+    "radhavallabh_prem",
+    "hit_radha_vallabh",
+    "seva_kunj_dunj",
+    "seva_kunj_darshan",
+    "vrindavan_satsang",
+    "radha_keli_kunj",
+    "shrimad_bhagwat_katha",
+    "braj_ke_sant"
+].map((h)=>h.toLowerCase()));
+const CHANNEL_MARKER = /(mandir|temple|vrindavan|mathura|braj|official|darshan|sanatan|bhakti|satsang|katha|seva)/i;
+function isVrindavanSource(author, caption) {
+    const handle = author.replace(/^@/, "").toLowerCase();
+    if (VRINDAVAN_CHANNELS.has(handle)) return true;
+    // Heuristic: channel-ish handle AND temple-ish content, both present.
+    return CHANNEL_MARKER.test(author) && CHANNEL_MARKER.test(caption);
+}
+const DAILY_LIMIT = 5; // uploads per IST day (YouTube budget)
+const FIND_DAILY = 20; // downloads collected per IST day
+const MIN_VIEWS = 100_000; // strictly MORE than this (1 lakh+)
 function selectDiverse(fresh, quota, todayByTopic) {
     const bestMissing = new Map();
     for (const candidate of fresh){

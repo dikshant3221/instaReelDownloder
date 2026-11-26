@@ -15,7 +15,6 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$radar$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Radar$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/radar.mjs [app-ssr] (ecmascript) <export default as Radar>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$folder$2d$open$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__FolderOpen$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/folder-open.mjs [app-ssr] (ecmascript) <export default as FolderOpen>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$key$2d$round$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__KeyRound$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/key-round.mjs [app-ssr] (ecmascript) <export default as KeyRound>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$sliders$2d$horizontal$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__SlidersHorizontal$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/sliders-horizontal.mjs [app-ssr] (ecmascript) <export default as SlidersHorizontal>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$monitor$2d$down$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__MonitorDown$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/monitor-down.mjs [app-ssr] (ecmascript) <export default as MonitorDown>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$eye$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Eye$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/eye.mjs [app-ssr] (ecmascript) <export default as Eye>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$triangle$2d$exclamation$2d$point$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__AlertTriangle$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/triangle-exclamation-point.mjs [app-ssr] (ecmascript) <export default as AlertTriangle>");
@@ -23,13 +22,13 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$layout$2d$grid$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__LayoutGrid$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/layout-grid.mjs [app-ssr] (ecmascript) <export default as LayoutGrid>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$film$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Film$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/film.mjs [app-ssr] (ecmascript) <export default as Film>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$activity$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Activity$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/activity.mjs [app-ssr] (ecmascript) <export default as Activity>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$search$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Search$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/search.mjs [app-ssr] (ecmascript) <export default as Search>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$bot$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Bot$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/bot.mjs [app-ssr] (ecmascript) <export default as Bot>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$loader$2d$circle$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Loader2$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/loader-circle.mjs [app-ssr] (ecmascript) <export default as Loader2>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shield$2d$check$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ShieldCheck$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/shield-check.mjs [app-ssr] (ecmascript) <export default as ShieldCheck>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shield$2d$x$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ShieldX$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/shield-x.mjs [app-ssr] (ecmascript) <export default as ShieldX>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$monitor$2d$play$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__MonitorPlay$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/monitor-play.mjs [app-ssr] (ecmascript) <export default as MonitorPlay>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$link$2d$2$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Link2$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/link-2.mjs [app-ssr] (ecmascript) <export default as Link2>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$image$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Image$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/image.mjs [app-ssr] (ecmascript) <export default as Image>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$types$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/lib/types.ts [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$safe$2d$fetch$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/lib/safe-fetch.ts [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$sections$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/sections.tsx [app-ssr] (ecmascript)");
@@ -180,14 +179,9 @@ function Dashboard() {
             alert: needsKey
         },
         {
-            label: "Discovery",
-            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$search$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Search$3e$__["Search"],
-            onClick: ()=>setModal("discovery")
-        },
-        {
-            label: "Topics",
-            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$sliders$2d$horizontal$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__SlidersHorizontal$3e$__["SlidersHorizontal"],
-            onClick: ()=>setModal("topics")
+            label: "Reference Photos",
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$image$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Image$3e$__["Image"],
+            onClick: ()=>setModal("reference")
         },
         {
             label: "Desktop App",
@@ -920,24 +914,6 @@ function Dashboard() {
                                                                 fileName: "[project]/src/components/dashboard.tsx",
                                                                 lineNumber: 365,
                                                                 columnNumber: 21
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                                className: "btn w-full justify-start",
-                                                                onClick: ()=>setModal("discovery"),
-                                                                children: [
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$search$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Search$3e$__["Search"], {
-                                                                        size: 15
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/src/components/dashboard.tsx",
-                                                                        lineNumber: 369,
-                                                                        columnNumber: 23
-                                                                    }, this),
-                                                                    " Discovery settings"
-                                                                ]
-                                                            }, void 0, true, {
-                                                                fileName: "[project]/src/components/dashboard.tsx",
-                                                                lineNumber: 368,
-                                                                columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
@@ -959,7 +935,7 @@ function Dashboard() {
                                                                 }).format(new Date(status.lastScanAt)) + " IST" : "never"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/dashboard.tsx",
-                                                                lineNumber: 374,
+                                                                lineNumber: 371,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Row, {
@@ -968,7 +944,7 @@ function Dashboard() {
                                                                 title: status?.downloadRoot
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/dashboard.tsx",
-                                                                lineNumber: 379,
+                                                                lineNumber: 376,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Row, {
@@ -977,7 +953,7 @@ function Dashboard() {
                                                                 valueClass: running && !targetMet ? "text-[var(--accent-hi)]" : "text-[var(--ink-dim)]"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/dashboard.tsx",
-                                                                lineNumber: 380,
+                                                                lineNumber: 377,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Row, {
@@ -986,7 +962,7 @@ function Dashboard() {
                                                                 valueClass: "text-[#4ade80]"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/dashboard.tsx",
-                                                                lineNumber: 385,
+                                                                lineNumber: 382,
                                                                 columnNumber: 21
                                                             }, this),
                                                             status?.quota && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Row, {
@@ -996,13 +972,13 @@ function Dashboard() {
                                                                 title: "Estimated quota — uploads resume at IST midnight if exhausted"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/dashboard.tsx",
-                                                                lineNumber: 387,
+                                                                lineNumber: 384,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/dashboard.tsx",
-                                                        lineNumber: 373,
+                                                        lineNumber: 370,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
@@ -1047,7 +1023,7 @@ function Dashboard() {
                                                         children: "Video library"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/dashboard.tsx",
-                                                        lineNumber: 405,
+                                                        lineNumber: 402,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1055,13 +1031,13 @@ function Dashboard() {
                                                         children: "AI-approved MP4s · saved in Downloads/Instagram_Viral_Videos"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/dashboard.tsx",
-                                                        lineNumber: 406,
+                                                        lineNumber: 403,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/dashboard.tsx",
-                                                lineNumber: 404,
+                                                lineNumber: 401,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1072,13 +1048,13 @@ function Dashboard() {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/dashboard.tsx",
-                                                lineNumber: 410,
+                                                lineNumber: 407,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/dashboard.tsx",
-                                        lineNumber: 403,
+                                        lineNumber: 400,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$library$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1086,13 +1062,13 @@ function Dashboard() {
                                         refreshKey: refreshKey
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/dashboard.tsx",
-                                        lineNumber: 412,
+                                        lineNumber: 409,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/dashboard.tsx",
-                                lineNumber: 402,
+                                lineNumber: 399,
                                 columnNumber: 13
                             }, this),
                             view === "rejected" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1117,7 +1093,7 @@ function Dashboard() {
                                                 children: "Rejected videos"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/dashboard.tsx",
-                                                lineNumber: 420,
+                                                lineNumber: 417,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1125,13 +1101,13 @@ function Dashboard() {
                                                 children: "Audit the AI's decisions — open any clip on Instagram to verify, or re-queue if it was wrongly rejected."
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/dashboard.tsx",
-                                                lineNumber: 421,
+                                                lineNumber: 418,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/dashboard.tsx",
-                                        lineNumber: 419,
+                                        lineNumber: 416,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$rejected$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1139,23 +1115,23 @@ function Dashboard() {
                                         refreshKey: refreshKey
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/dashboard.tsx",
-                                        lineNumber: 425,
+                                        lineNumber: 422,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/dashboard.tsx",
-                                lineNumber: 418,
+                                lineNumber: 415,
                                 columnNumber: 13
                             }, this),
                             view === "youtube" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$youtube$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                 fileName: "[project]/src/components/dashboard.tsx",
-                                lineNumber: 430,
+                                lineNumber: 427,
                                 columnNumber: 34
                             }, this),
                             view === "manual" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$manual$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                 fileName: "[project]/src/components/dashboard.tsx",
-                                lineNumber: 433,
+                                lineNumber: 430,
                                 columnNumber: 33
                             }, this),
                             view === "activity" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1182,7 +1158,7 @@ function Dashboard() {
                                                         children: "Activity log"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/dashboard.tsx",
-                                                        lineNumber: 440,
+                                                        lineNumber: 437,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1190,13 +1166,13 @@ function Dashboard() {
                                                         children: "Every scan, verification, duplicate check and download"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/dashboard.tsx",
-                                                        lineNumber: 441,
+                                                        lineNumber: 438,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/dashboard.tsx",
-                                                lineNumber: 439,
+                                                lineNumber: 436,
                                                 columnNumber: 17
                                             }, this),
                                             status?.lastRun && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1215,13 +1191,13 @@ function Dashboard() {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/dashboard.tsx",
-                                                lineNumber: 446,
+                                                lineNumber: 443,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/dashboard.tsx",
-                                        lineNumber: 438,
+                                        lineNumber: 435,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$sections$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ActivityFeed"], {
@@ -1230,13 +1206,13 @@ function Dashboard() {
                                         height: 560
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/dashboard.tsx",
-                                        lineNumber: 452,
+                                        lineNumber: 449,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/dashboard.tsx",
-                                lineNumber: 437,
+                                lineNumber: 434,
                                 columnNumber: 13
                             }, this)
                         ]
@@ -1269,12 +1245,12 @@ function Dashboard() {
                     children: toast
                 }, void 0, false, {
                     fileName: "[project]/src/components/dashboard.tsx",
-                    lineNumber: 461,
+                    lineNumber: 458,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/dashboard.tsx",
-                lineNumber: 459,
+                lineNumber: 456,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["AnimatePresence"], {
@@ -1285,40 +1261,29 @@ function Dashboard() {
                         onChanged: fetchStatus
                     }, void 0, false, {
                         fileName: "[project]/src/components/dashboard.tsx",
-                        lineNumber: 475,
+                        lineNumber: 472,
                         columnNumber: 11
                     }, this),
-                    modal === "topics" && status && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$modals$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TopicsModal"], {
+                    modal === "reference" && status && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$modals$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ReferenceModal"], {
                         topics: status.topics,
                         onClose: ()=>setModal(null),
                         onChanged: fetchStatus
                     }, void 0, false, {
                         fileName: "[project]/src/components/dashboard.tsx",
-                        lineNumber: 478,
-                        columnNumber: 11
-                    }, this),
-                    modal === "discovery" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$modals$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["DiscoveryModal"], {
-                        onClose: ()=>setModal(null),
-                        onChanged: ()=>{
-                            void fetchStatus();
-                            void engine("scan");
-                        }
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/dashboard.tsx",
-                        lineNumber: 481,
+                        lineNumber: 475,
                         columnNumber: 11
                     }, this),
                     modal === "windows" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$modals$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["WindowsModal"], {
                         onClose: ()=>setModal(null)
                     }, void 0, false, {
                         fileName: "[project]/src/components/dashboard.tsx",
-                        lineNumber: 483,
+                        lineNumber: 477,
                         columnNumber: 33
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/dashboard.tsx",
-                lineNumber: 473,
+                lineNumber: 470,
                 columnNumber: 7
             }, this)
         ]
@@ -1337,7 +1302,7 @@ function Dashboard() {
                 children: label
             }, void 0, false, {
                 fileName: "[project]/src/components/dashboard.tsx",
-                lineNumber: 494,
+                lineNumber: 488,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1345,13 +1310,13 @@ function Dashboard() {
                 children: value
             }, void 0, false, {
                 fileName: "[project]/src/components/dashboard.tsx",
-                lineNumber: 495,
+                lineNumber: 489,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/dashboard.tsx",
-        lineNumber: 493,
+        lineNumber: 487,
         columnNumber: 5
     }, this);
 }
@@ -1364,7 +1329,7 @@ function Row({ label, value, valueClass = "text-[var(--ink-dim)]", title }) {
                 children: label
             }, void 0, false, {
                 fileName: "[project]/src/components/dashboard.tsx",
-                lineNumber: 503,
+                lineNumber: 497,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1373,13 +1338,13 @@ function Row({ label, value, valueClass = "text-[var(--ink-dim)]", title }) {
                 children: value
             }, void 0, false, {
                 fileName: "[project]/src/components/dashboard.tsx",
-                lineNumber: 504,
+                lineNumber: 498,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/dashboard.tsx",
-        lineNumber: 502,
+        lineNumber: 496,
         columnNumber: 5
     }, this);
 }
@@ -1397,7 +1362,7 @@ function Banner({ tone, icon: Icon, children, action, spin }) {
                 className: `shrink-0 ${spin ? "scan-sweep" : ""}`
             }, void 0, false, {
                 fileName: "[project]/src/components/dashboard.tsx",
-                lineNumber: 531,
+                lineNumber: 525,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1405,7 +1370,7 @@ function Banner({ tone, icon: Icon, children, action, spin }) {
                 children: children
             }, void 0, false, {
                 fileName: "[project]/src/components/dashboard.tsx",
-                lineNumber: 532,
+                lineNumber: 526,
                 columnNumber: 7
             }, this),
             action && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1414,13 +1379,13 @@ function Banner({ tone, icon: Icon, children, action, spin }) {
                 children: action.label
             }, void 0, false, {
                 fileName: "[project]/src/components/dashboard.tsx",
-                lineNumber: 534,
+                lineNumber: 528,
                 columnNumber: 9
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/dashboard.tsx",
-        lineNumber: 530,
+        lineNumber: 524,
         columnNumber: 5
     }, this);
 }
@@ -2781,12 +2746,10 @@ function ManualUpload() {
 "use strict";
 
 __turbopack_context__.s([
-    "DiscoveryModal",
-    ()=>DiscoveryModal,
     "ProvidersModal",
     ()=>ProvidersModal,
-    "TopicsModal",
-    ()=>TopicsModal,
+    "ReferenceModal",
+    ()=>ReferenceModal,
     "WindowsModal",
     ()=>WindowsModal
 ]);
@@ -2797,8 +2760,6 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$key$2d$round$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__KeyRound$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/key-round.mjs [app-ssr] (ecmascript) <export default as KeyRound>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$flask$2d$conical$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__FlaskConical$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/flask-conical.mjs [app-ssr] (ecmascript) <export default as FlaskConical>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$dot$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__CircleDot$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/circle-dot.mjs [app-ssr] (ecmascript) <export default as CircleDot>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$plus$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Plus$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/plus.mjs [app-ssr] (ecmascript) <export default as Plus>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trash$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Trash2$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/trash.mjs [app-ssr] (ecmascript) <export default as Trash2>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$bot$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Bot$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/bot.mjs [app-ssr] (ecmascript) <export default as Bot>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$monitor$2d$down$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__MonitorDown$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/monitor-down.mjs [app-ssr] (ecmascript) <export default as MonitorDown>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$square$2d$terminal$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__TerminalSquare$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/square-terminal.mjs [app-ssr] (ecmascript) <export default as TerminalSquare>");
@@ -2806,15 +2767,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calendar$2d$clock$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__CalendarClock$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/calendar-clock.mjs [app-ssr] (ecmascript) <export default as CalendarClock>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$folder$2d$tree$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__FolderTree$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/folder-tree.mjs [app-ssr] (ecmascript) <export default as FolderTree>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$image$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Image$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/image.mjs [app-ssr] (ecmascript) <export default as Image>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$loader$2d$circle$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Loader2$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/loader-circle.mjs [app-ssr] (ecmascript) <export default as Loader2>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$badge$2d$check$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__BadgeCheck$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/badge-check.mjs [app-ssr] (ecmascript) <export default as BadgeCheck>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$search$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Search$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/search.mjs [app-ssr] (ecmascript) <export default as Search>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$earth$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Globe2$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/earth.mjs [app-ssr] (ecmascript) <export default as Globe2>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shield$2d$check$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ShieldCheck$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/shield-check.mjs [app-ssr] (ecmascript) <export default as ShieldCheck>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$external$2d$link$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ExternalLink$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/external-link.mjs [app-ssr] (ecmascript) <export default as ExternalLink>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$safe$2d$fetch$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/lib/safe-fetch.ts [app-ssr] (ecmascript)");
 "use client";
-;
 ;
 ;
 ;
@@ -3285,113 +3239,20 @@ function ProvidersModal({ providers, onClose, onChanged }) {
         columnNumber: 5
     }, this);
 }
-function TopicsModal({ topics, onClose, onChanged }) {
-    // Local keyword edits overlay the server list — no state synced inside effects.
-    const [kw, setKw] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])({});
-    const [draft, setDraft] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])({});
-    // Per-topic reference photo: cache-busting version + busy flag.
+function ReferenceModal({ topics, onClose, onChanged }) {
     const [refVersion, setRefVersion] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])({});
     const [refCount, setRefCount] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(Object.fromEntries(topics.map((t)=>[
             t.slug,
             t.referenceImageSet ? 1 : 0
         ])));
     const [refBusy, setRefBusy] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(null);
-    // Viral threshold (shown in millions) + add-topic field.
-    const [thresholdM, setThresholdM] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])("");
+    const [thresholdM, setThresholdM] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])("0.1");
     const [savingThreshold, setSavingThreshold] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
-    const [newTopic, setNewTopic] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])("");
-    const [addingTopic, setAddingTopic] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
         void fetch("/api/settings").then((r)=>r.json()).then((j)=>{
             if (typeof j.minViews === "number") setThresholdM(String(j.minViews / 1_000_000));
         }).catch(()=>{});
     }, []);
-    async function save(slug, keywords) {
-        await fetch("/api/topics", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify({
-                action: "update",
-                slug,
-                keywords
-            })
-        });
-        onChanged();
-    }
-    async function toggleEnabled(slug, enabled) {
-        await fetch("/api/topics", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify({
-                action: "update",
-                slug,
-                enabled
-            })
-        });
-        onChanged();
-    }
-    async function removeTopic(slug, name) {
-        if (!confirm(`Remove "${name}" from monitoring? Its download history is kept.`)) return;
-        await fetch("/api/topics", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify({
-                action: "delete",
-                slug
-            })
-        });
-        onChanged();
-    }
-    async function addTopic() {
-        const name = newTopic.trim();
-        if (name.length < 2) return;
-        setAddingTopic(true);
-        const res = await fetch("/api/topics", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify({
-                action: "add",
-                name
-            })
-        });
-        const j = await res.json().catch(()=>({
-                ok: false
-            }));
-        setAddingTopic(false);
-        if (j.ok) {
-            setNewTopic("");
-            onChanged();
-        } else {
-            alert(j.error || "Could not add topic.");
-        }
-    }
-    async function saveThreshold() {
-        const m = Number(thresholdM);
-        if (!Number.isFinite(m) || m < 0) {
-            alert("Enter a number in millions (e.g. 1 for 1,000,000 views).");
-            return;
-        }
-        setSavingThreshold(true);
-        await fetch("/api/settings", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify({
-                minViews: Math.round(m * 1_000_000)
-            })
-        });
-        setSavingThreshold(false);
-        onChanged();
-    }
     async function uploadReference(slug, file) {
         if (file.size > 2_500_000) {
             alert("Please choose an image under 2.5 MB.");
@@ -3466,30 +3327,49 @@ function TopicsModal({ topics, onClose, onChanged }) {
             onChanged();
         }
     }
+    async function saveThreshold() {
+        const m = Number(thresholdM);
+        if (!Number.isFinite(m) || m < 0) {
+            alert("Enter a number in millions (e.g. 0.1 for 100,000 views).");
+            return;
+        }
+        setSavingThreshold(true);
+        await fetch("/api/settings", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                minViews: Math.round(m * 1_000_000)
+            })
+        });
+        setSavingThreshold(false);
+        onChanged();
+    }
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Shell, {
-        title: "Topics & criteria",
-        sub: "Enable/disable or add topics · set the viral threshold · upload reference photos",
+        title: "Deity reference photos & viral filter",
+        sub: "Upload Vrindavan god images so the AI can verify the final download · set the view threshold",
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$folder$2d$tree$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__FolderTree$3e$__["FolderTree"],
         onClose: onClose,
         wide: true,
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "mb-3 rounded-[var(--r)] border border-[var(--line-2)] bg-[var(--surface-2)] p-4",
+                className: "mb-4 rounded-[var(--r)] border border-[var(--line-2)] bg-[var(--surface-2)] p-4",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "text-sm font-semibold text-[var(--ink)]",
-                        children: "Viral threshold"
+                        children: "Viral threshold (in millions)"
                     }, void 0, false, {
                         fileName: "[project]/src/components/modals.tsx",
-                        lineNumber: 403,
+                        lineNumber: 347,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "mt-0.5 text-[12px] text-[var(--ink-faint)]",
-                        children: "Only keep videos with more than this many views."
+                        children: "Only keep videos with more than this many views. 0.1 = 100,000 (1 lakh) · 1 = 1,000,000."
                     }, void 0, false, {
                         fileName: "[project]/src/components/modals.tsx",
-                        lineNumber: 404,
+                        lineNumber: 348,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3507,7 +3387,7 @@ function TopicsModal({ topics, onClose, onChanged }) {
                                         className: "w-28 rounded-[var(--r-sm)] border border-[var(--line-2)] bg-[var(--bg)] px-3 py-2 text-sm text-[var(--ink)] outline-none"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/modals.tsx",
-                                        lineNumber: 409,
+                                        lineNumber: 353,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -3515,13 +3395,13 @@ function TopicsModal({ topics, onClose, onChanged }) {
                                         children: "M"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/modals.tsx",
-                                        lineNumber: 417,
+                                        lineNumber: 361,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/modals.tsx",
-                                lineNumber: 408,
+                                lineNumber: 352,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -3533,16 +3413,15 @@ function TopicsModal({ topics, onClose, onChanged }) {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/modals.tsx",
-                                lineNumber: 421,
+                                lineNumber: 365,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "ml-auto flex gap-1.5",
                                 children: [
+                                    0.1,
                                     0.5,
-                                    1,
-                                    3,
-                                    5
+                                    1
                                 ].map((m)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                         className: "badge",
                                         onClick: ()=>setThresholdM(String(m)),
@@ -3552,12 +3431,12 @@ function TopicsModal({ topics, onClose, onChanged }) {
                                         ]
                                     }, m, true, {
                                         fileName: "[project]/src/components/modals.tsx",
-                                        lineNumber: 426,
+                                        lineNumber: 370,
                                         columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/src/components/modals.tsx",
-                                lineNumber: 424,
+                                lineNumber: 368,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -3567,103 +3446,31 @@ function TopicsModal({ topics, onClose, onChanged }) {
                                 children: savingThreshold ? "Saving…" : "Save threshold"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/modals.tsx",
-                                lineNumber: 431,
+                                lineNumber: 375,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/modals.tsx",
-                        lineNumber: 407,
+                        lineNumber: 351,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/modals.tsx",
-                lineNumber: 402,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "mb-4 rounded-[var(--r)] border border-[var(--line-2)] bg-[var(--surface-2)] p-4",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "text-sm font-semibold text-[var(--ink)]",
-                        children: "Add a topic"
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/modals.tsx",
-                        lineNumber: 439,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "mt-2 flex gap-2",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                                value: newTopic,
-                                onChange: (e)=>setNewTopic(e.target.value),
-                                onKeyDown: (e)=>e.key === "Enter" && void addTopic(),
-                                placeholder: "e.g. Shri Radha Rani",
-                                className: "flex-1 rounded-[var(--r-sm)] border border-[var(--line-2)] bg-[var(--bg)] px-3 py-2 text-sm text-[var(--ink)] outline-none placeholder:text-[var(--ink-faint)]"
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/modals.tsx",
-                                lineNumber: 441,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                className: "btn btn-primary !h-9",
-                                disabled: addingTopic || newTopic.trim().length < 2,
-                                onClick: ()=>void addTopic(),
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$plus$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Plus$3e$__["Plus"], {
-                                        size: 14
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/modals.tsx",
-                                        lineNumber: 449,
-                                        columnNumber: 13
-                                    }, this),
-                                    " ",
-                                    addingTopic ? "Adding…" : "Add"
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/components/modals.tsx",
-                                lineNumber: 448,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/components/modals.tsx",
-                        lineNumber: 440,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/src/components/modals.tsx",
-                lineNumber: 438,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "mb-2 text-[12px] text-[var(--ink-faint)]",
-                children: [
-                    topics.filter((t)=>t.enabled).length,
-                    " of ",
-                    topics.length,
-                    " topics enabled · disabled topics are skipped during search."
-                ]
-            }, void 0, true, {
-                fileName: "[project]/src/components/modals.tsx",
-                lineNumber: 454,
+                lineNumber: 346,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "space-y-4",
                 children: topics.map((t)=>{
-                    const list = kw[t.slug] ?? t.keywords;
-                    const visibleList = list.filter((keyword)=>!/[\u0900-\u097F]/.test(keyword));
                     const count = refCount[t.slug] ?? 0;
                     const ver = refVersion[t.slug] ?? 0;
                     const thumbs = Array.from({
                         length: count
                     });
                     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: `rounded-2xl border border-[var(--line)] p-4 transition-opacity ${t.enabled ? "" : "opacity-55"}`,
+                        className: "rounded-2xl border border-[var(--line)] p-4",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "flex items-start gap-4",
                             children: [
@@ -3675,7 +3482,6 @@ function TopicsModal({ topics, onClose, onChanged }) {
                                             children: [
                                                 thumbs.map((_, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                         className: "group relative h-16 w-16 overflow-hidden rounded-[var(--r-sm)] border border-[var(--line-2)] bg-[var(--surface-2)]",
-                                                        title: "Click to remove this reference photo",
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                                 src: `/api/topics/reference?slug=${t.slug}&idx=${i}&v=${ver}`,
@@ -3683,7 +3489,7 @@ function TopicsModal({ topics, onClose, onChanged }) {
                                                                 className: "h-full w-full object-cover"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/modals.tsx",
-                                                                lineNumber: 480,
+                                                                lineNumber: 398,
                                                                 columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -3692,13 +3498,13 @@ function TopicsModal({ topics, onClose, onChanged }) {
                                                                 children: "Remove"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/modals.tsx",
-                                                                lineNumber: 485,
+                                                                lineNumber: 403,
                                                                 columnNumber: 25
                                                             }, this)
                                                         ]
                                                     }, i, true, {
                                                         fileName: "[project]/src/components/modals.tsx",
-                                                        lineNumber: 474,
+                                                        lineNumber: 393,
                                                         columnNumber: 23
                                                     }, this)),
                                                 count === 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3708,7 +3514,7 @@ function TopicsModal({ topics, onClose, onChanged }) {
                                                             size: 16
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/modals.tsx",
-                                                            lineNumber: 495,
+                                                            lineNumber: 413,
                                                             columnNumber: 25
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -3716,19 +3522,19 @@ function TopicsModal({ topics, onClose, onChanged }) {
                                                             children: "No photo"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/modals.tsx",
-                                                            lineNumber: 496,
+                                                            lineNumber: 414,
                                                             columnNumber: 25
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/modals.tsx",
-                                                    lineNumber: 494,
+                                                    lineNumber: 412,
                                                     columnNumber: 23
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/modals.tsx",
-                                            lineNumber: 472,
+                                            lineNumber: 391,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -3747,939 +3553,67 @@ function TopicsModal({ topics, onClose, onChanged }) {
                                                     }
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/modals.tsx",
-                                                    lineNumber: 502,
+                                                    lineNumber: 420,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/modals.tsx",
-                                            lineNumber: 500,
+                                            lineNumber: 418,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/modals.tsx",
-                                    lineNumber: 471,
+                                    lineNumber: 390,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "min-w-0 flex-1",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "flex items-start justify-between gap-3",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "text-sm font-semibold text-[var(--ink)]",
-                                                            children: t.name
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/components/modals.tsx",
-                                                            lineNumber: 519,
-                                                            columnNumber: 19
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "text-[11px] text-[var(--ink-faint)]",
-                                                            children: count > 0 ? `${count} reference photo(s) — AI matches videos against them` : "No reference photo — add one for best accuracy"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/components/modals.tsx",
-                                                            lineNumber: 520,
-                                                            columnNumber: 19
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/src/components/modals.tsx",
-                                                    lineNumber: 518,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "flex shrink-0 items-center gap-1.5",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                            onClick: ()=>void toggleEnabled(t.slug, !t.enabled),
-                                                            className: `badge ${t.enabled ? "badge-success" : "!text-[var(--ink-faint)]"}`,
-                                                            title: t.enabled ? "Enabled — click to disable" : "Disabled — click to enable",
-                                                            children: t.enabled ? "Enabled" : "Disabled"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/components/modals.tsx",
-                                                            lineNumber: 526,
-                                                            columnNumber: 19
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                            onClick: ()=>void removeTopic(t.slug, t.name),
-                                                            className: "btn btn-ghost !h-6 !px-1.5 !text-[11px] hover:!text-[#fb7185]",
-                                                            title: "Remove topic",
-                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trash$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Trash2$3e$__["Trash2"], {
-                                                                size: 13
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/src/components/modals.tsx",
-                                                                lineNumber: 538,
-                                                                columnNumber: 21
-                                                            }, this)
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/components/modals.tsx",
-                                                            lineNumber: 533,
-                                                            columnNumber: 19
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/src/components/modals.tsx",
-                                                    lineNumber: 524,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/src/components/modals.tsx",
-                                            lineNumber: 517,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "mt-3 flex flex-wrap gap-1.5",
-                                            children: [
-                                                visibleList.map((k)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                        className: "chip group",
-                                                        children: [
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                children: k
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/src/components/modals.tsx",
-                                                                lineNumber: 545,
-                                                                columnNumber: 21
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                                onClick: ()=>setKw((s)=>({
-                                                                            ...s,
-                                                                            [t.slug]: list.filter((x)=>x !== k)
-                                                                        })),
-                                                                className: "opacity-40 transition-opacity hover:opacity-100",
-                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trash$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Trash2$3e$__["Trash2"], {
-                                                                    size: 9
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/src/components/modals.tsx",
-                                                                    lineNumber: 550,
-                                                                    columnNumber: 23
-                                                                }, this)
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/src/components/modals.tsx",
-                                                                lineNumber: 546,
-                                                                columnNumber: 21
-                                                            }, this)
-                                                        ]
-                                                    }, k, true, {
-                                                        fileName: "[project]/src/components/modals.tsx",
-                                                        lineNumber: 544,
-                                                        columnNumber: 19
-                                                    }, this)),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "flex items-center gap-1",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                                                            value: draft[t.slug] ?? "",
-                                                            onChange: (e)=>setDraft((d)=>({
-                                                                        ...d,
-                                                                        [t.slug]: e.target.value
-                                                                    })),
-                                                            onKeyDown: (e)=>{
-                                                                if (e.key === "Enter" && (draft[t.slug] ?? "").trim()) {
-                                                                    setKw((s)=>({
-                                                                            ...s,
-                                                                            [t.slug]: [
-                                                                                ...list,
-                                                                                draft[t.slug].trim()
-                                                                            ]
-                                                                        }));
-                                                                    setDraft((d)=>({
-                                                                            ...d,
-                                                                            [t.slug]: ""
-                                                                        }));
-                                                                }
-                                                            },
-                                                            placeholder: "add keyword…",
-                                                            className: "w-28 rounded-full border border-dashed border-[var(--line)] bg-transparent px-3 py-1 text-[11px] text-[var(--ink)] outline-none placeholder:text-[var(--ink-faint)]"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/components/modals.tsx",
-                                                            lineNumber: 555,
-                                                            columnNumber: 19
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                            className: "btn !px-2 !py-1",
-                                                            onClick: ()=>{
-                                                                if ((draft[t.slug] ?? "").trim()) {
-                                                                    setKw((s)=>({
-                                                                            ...s,
-                                                                            [t.slug]: [
-                                                                                ...list,
-                                                                                draft[t.slug].trim()
-                                                                            ]
-                                                                        }));
-                                                                    setDraft((d)=>({
-                                                                            ...d,
-                                                                            [t.slug]: ""
-                                                                        }));
-                                                                }
-                                                            },
-                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$plus$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Plus$3e$__["Plus"], {
-                                                                size: 11
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/src/components/modals.tsx",
-                                                                lineNumber: 576,
-                                                                columnNumber: 21
-                                                            }, this)
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/components/modals.tsx",
-                                                            lineNumber: 567,
-                                                            columnNumber: 19
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/src/components/modals.tsx",
-                                                    lineNumber: 554,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/src/components/modals.tsx",
-                                            lineNumber: 542,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "mt-3 flex justify-end",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                className: "btn !py-1.5 !text-[11px]",
-                                                onClick: ()=>save(t.slug, list),
-                                                children: "Save keywords"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/modals.tsx",
-                                                lineNumber: 581,
-                                                columnNumber: 17
-                                            }, this)
+                                            className: "text-sm font-semibold text-[var(--ink)]",
+                                            children: t.name
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/modals.tsx",
-                                            lineNumber: 580,
-                                            columnNumber: 15
+                                            lineNumber: 434,
+                                            columnNumber: 19
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "mt-1 text-[12px] leading-relaxed text-[var(--ink-faint)]",
+                                            children: "Upload 1–3 clear photos of the deity/temple. The AI compares every final download against these images before it is allowed to upload — so only genuine Vrindavan deity videos reach your YouTube channel."
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/modals.tsx",
+                                            lineNumber: 435,
+                                            columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/modals.tsx",
-                                    lineNumber: 516,
+                                    lineNumber: 433,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/modals.tsx",
-                            lineNumber: 469,
+                            lineNumber: 389,
                             columnNumber: 15
                         }, this)
                     }, t.slug, false, {
                         fileName: "[project]/src/components/modals.tsx",
-                        lineNumber: 465,
+                        lineNumber: 388,
                         columnNumber: 13
                     }, this);
                 })
             }, void 0, false, {
                 fileName: "[project]/src/components/modals.tsx",
-                lineNumber: 457,
+                lineNumber: 382,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/modals.tsx",
-        lineNumber: 400,
-        columnNumber: 5
-    }, this);
-}
-function DiscoveryModal({ onClose, onChanged }) {
-    const [state, setState] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(null);
-    const [token, setToken] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])("");
-    const [browser, setBrowser] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])("none");
-    const [cookieBusy, setCookieBusy] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
-    const [cookieNote, setCookieNote] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(null);
-    const [sourceUrls, setSourceUrls] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])("");
-    const [busy, setBusy] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
-    const [message, setMessage] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])("");
-    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
-        void (async ()=>{
-            const r = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$safe$2d$fetch$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["safeFetch"])("/api/discovery");
-            if (r.data) {
-                setState(r.data);
-                setBrowser(r.data.browser || "none");
-                setSourceUrls(r.data.sourceUrls || "");
-            }
-        })();
-    }, []);
-    async function enableCookiesAndTest() {
-        setCookieBusy(true);
-        setCookieNote("Saving browser session and running a test scan… (up to 2 minutes)");
-        // 1) persist the browser choice
-        await fetch("/api/discovery", {
-            method: "POST",
-            headers: {
-                "content-type": "application/json"
-            },
-            body: JSON.stringify({
-                action: "save",
-                browser
-            })
-        });
-        // 2) start a scan
-        const startedAt = Date.now();
-        await fetch("/api/engine", {
-            method: "POST",
-            headers: {
-                "content-type": "application/json"
-            },
-            body: JSON.stringify({
-                action: "scan"
-            })
-        });
-        // 3) poll until a scan finished AFTER we started, then report exact views
-        const poll = setInterval(async ()=>{
-            try {
-                const r = await fetch("/api/status");
-                const j = await r.json();
-                if (j.scanInsight && j.scanInsight.at >= startedAt - 2000 && Date.now() - startedAt > 8000) {
-                    clearInterval(poll);
-                    setCookieBusy(false);
-                    setCookieNote(j.scanInsight.exactViews && j.scanInsight.exactViews > 0 ? `Working — ${j.scanInsight.exactViews} reel(s) now have EXACT view counts from your browser session. The viral filter can now work properly.` : `Still no exact view counts. Confirm you are logged into instagram.com in ${browser} (default profile), then press the button again.`);
-                    onChanged();
-                }
-            } catch  {
-            /* retry next tick */ }
-            if (Date.now() - startedAt > 180_000) {
-                clearInterval(poll);
-                setCookieBusy(false);
-                setCookieNote("Test scan timed out — press the button again.");
-            }
-        }, 8_000);
-    }
-    async function save() {
-        setBusy(true);
-        setMessage("");
-        const r = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$safe$2d$fetch$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["safeFetch"])("/api/discovery", {
-            method: "POST",
-            headers: {
-                "content-type": "application/json"
-            },
-            body: JSON.stringify({
-                action: "save",
-                apifyToken: token,
-                browser,
-                sourceUrls
-            })
-        }, 1);
-        setBusy(false);
-        if (r.data?.ok) {
-            setMessage("Saved. The next real-media scan will use these sources immediately.");
-            onChanged();
-        } else {
-            setMessage(r.data?.error || r.error || "Could not save yet.");
-        }
-    }
-    async function testApify() {
-        setBusy(true);
-        setMessage("");
-        const r = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$safe$2d$fetch$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["safeFetch"])("/api/discovery", {
-            method: "POST",
-            headers: {
-                "content-type": "application/json"
-            },
-            body: JSON.stringify({
-                action: "test-apify",
-                apifyToken: token
-            })
-        }, 0, 20_000);
-        setBusy(false);
-        setMessage(r.data?.message || r.data?.error || r.error || "Test failed.");
-    }
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Shell, {
-        title: "Instagram Discovery Setup",
-        sub: "One-time setup · reliable real Reels, public metrics and MP4 downloads",
-        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$search$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Search$3e$__["Search"],
-        onClose: onClose,
-        wide: true,
-        children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "rounded-2xl border border-[rgba(239,68,68,0.35)] bg-[rgba(239,68,68,0.07)] p-4 text-xs leading-relaxed text-[#fca5a5]",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
-                        children: "Why setup is needed:"
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/modals.tsx",
-                        lineNumber: 725,
-                        columnNumber: 9
-                    }, this),
-                    " Instagram deliberately blocks anonymous keyword search and often hides view counts. Public search engines are kept as a free fallback, but they can return zero by region. A free Apify token is the recommended reliable source; it does not require your Instagram password."
-                ]
-            }, void 0, true, {
-                fileName: "[project]/src/components/modals.tsx",
-                lineNumber: 724,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "mt-5 rounded-2xl border border-[var(--line)] p-5",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex flex-wrap items-center justify-between gap-3",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex items-center gap-2.5",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$earth$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Globe2$3e$__["Globe2"], {
-                                        size: 16,
-                                        className: "text-[var(--gold)]"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/modals.tsx",
-                                        lineNumber: 734,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "text-sm font-semibold text-[var(--ink)]",
-                                                children: "Recommended: Apify free token"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/modals.tsx",
-                                                lineNumber: 736,
-                                                columnNumber: 15
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "text-[11px] text-[var(--ink-faint)]",
-                                                children: "exact public play counts + direct public MP4 URLs · monthly free credit"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/modals.tsx",
-                                                lineNumber: 737,
-                                                columnNumber: 15
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/components/modals.tsx",
-                                        lineNumber: 735,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/components/modals.tsx",
-                                lineNumber: 733,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                href: "https://console.apify.com/account/integrations",
-                                target: "_blank",
-                                rel: "noreferrer",
-                                className: "btn !py-1.5 !text-[11px]",
-                                children: [
-                                    "Get free token ",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$external$2d$link$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ExternalLink$3e$__["ExternalLink"], {
-                                        size: 11
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/modals.tsx",
-                                        lineNumber: 748,
-                                        columnNumber: 28
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/components/modals.tsx",
-                                lineNumber: 742,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/components/modals.tsx",
-                        lineNumber: 732,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "mt-4 flex gap-2",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "relative flex-1",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$key$2d$round$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__KeyRound$3e$__["KeyRound"], {
-                                        size: 13,
-                                        className: "absolute left-3 top-1/2 -translate-y-1/2 text-[var(--ink-faint)]"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/modals.tsx",
-                                        lineNumber: 753,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                                        type: "password",
-                                        value: token,
-                                        onChange: (e)=>setToken(e.target.value),
-                                        placeholder: state?.apifyTokenSet ? `Saved: ${state.apifyTokenPreview} (paste only to replace)` : "Paste apify_api_… token",
-                                        className: "w-full rounded-xl border border-[var(--line)] bg-[rgba(5,10,20,0.6)] py-2.5 pl-9 pr-3 text-xs text-[var(--ink)] outline-none placeholder:text-[var(--ink-faint)] focus:border-[var(--line-strong)]"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/modals.tsx",
-                                        lineNumber: 754,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/components/modals.tsx",
-                                lineNumber: 752,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                className: "btn",
-                                disabled: busy || !token && !state?.apifyTokenSet,
-                                onClick: ()=>void testApify(),
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$flask$2d$conical$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__FlaskConical$3e$__["FlaskConical"], {
-                                        size: 12
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/modals.tsx",
-                                        lineNumber: 763,
-                                        columnNumber: 13
-                                    }, this),
-                                    " Test"
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/components/modals.tsx",
-                                lineNumber: 762,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/components/modals.tsx",
-                        lineNumber: 751,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/src/components/modals.tsx",
-                lineNumber: 731,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "mt-4 rounded-2xl border border-[var(--line)] p-5",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex items-center gap-2.5",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shield$2d$check$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ShieldCheck$3e$__["ShieldCheck"], {
-                                size: 16,
-                                className: "text-[#86efac]"
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/modals.tsx",
-                                lineNumber: 770,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "text-sm font-semibold text-[var(--ink)]",
-                                        children: "Exact view counts — one-click setup"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/modals.tsx",
-                                        lineNumber: 772,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "text-[11px] text-[var(--ink-faint)]",
-                                        children: "Without this, Instagram hides view counts and the viral filter has almost nothing to accept"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/modals.tsx",
-                                        lineNumber: 773,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/components/modals.tsx",
-                                lineNumber: 771,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/components/modals.tsx",
-                        lineNumber: 769,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ol", {
-                        className: "mt-3 space-y-1.5 text-[12px] text-[var(--ink-dim)]",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                className: "flex gap-2",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "badge badge-accent shrink-0",
-                                        children: "1"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/modals.tsx",
-                                        lineNumber: 780,
-                                        columnNumber: 13
-                                    }, this),
-                                    " Open Google Chrome and log in to instagram.com once"
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/components/modals.tsx",
-                                lineNumber: 779,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                className: "flex gap-2",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "badge badge-accent shrink-0",
-                                        children: "2"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/modals.tsx",
-                                        lineNumber: 783,
-                                        columnNumber: 13
-                                    }, this),
-                                    " Pick your browser below and press ",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
-                                        children: "Enable & test scan"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/modals.tsx",
-                                        lineNumber: 783,
-                                        columnNumber: 102
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/components/modals.tsx",
-                                lineNumber: 782,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                className: "flex gap-2",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "badge badge-accent shrink-0",
-                                        children: "3"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/modals.tsx",
-                                        lineNumber: 786,
-                                        columnNumber: 13
-                                    }, this),
-                                    " The app reads the session you already logged into — never your password"
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/components/modals.tsx",
-                                lineNumber: 785,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/components/modals.tsx",
-                        lineNumber: 778,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "mt-3 flex flex-wrap items-center gap-2",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
-                                value: browser,
-                                onChange: (e)=>setBrowser(e.target.value),
-                                className: "rounded-[var(--r-sm)] border border-[var(--line)] bg-[var(--bg)] px-3 py-2.5 text-xs text-[var(--ink)] outline-none",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
-                                        value: "none",
-                                        children: "Do not use browser cookies"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/modals.tsx",
-                                        lineNumber: 795,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
-                                        value: "chrome",
-                                        children: "Google Chrome"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/modals.tsx",
-                                        lineNumber: 796,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
-                                        value: "edge",
-                                        children: "Microsoft Edge"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/modals.tsx",
-                                        lineNumber: 797,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
-                                        value: "firefox",
-                                        children: "Mozilla Firefox"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/modals.tsx",
-                                        lineNumber: 798,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
-                                        value: "brave",
-                                        children: "Brave"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/modals.tsx",
-                                        lineNumber: 799,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/components/modals.tsx",
-                                lineNumber: 790,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                className: "btn btn-primary",
-                                disabled: cookieBusy || browser === "none",
-                                onClick: ()=>void enableCookiesAndTest(),
-                                children: [
-                                    cookieBusy ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$loader$2d$circle$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Loader2$3e$__["Loader2"], {
-                                        size: 13,
-                                        className: "animate-spin"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/modals.tsx",
-                                        lineNumber: 806,
-                                        columnNumber: 27
-                                    }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shield$2d$check$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ShieldCheck$3e$__["ShieldCheck"], {
-                                        size: 13
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/modals.tsx",
-                                        lineNumber: 806,
-                                        columnNumber: 76
-                                    }, this),
-                                    cookieBusy ? "Running test scan…" : "Enable & test scan"
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/components/modals.tsx",
-                                lineNumber: 801,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/components/modals.tsx",
-                        lineNumber: 789,
-                        columnNumber: 9
-                    }, this),
-                    cookieNote && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "mt-3 rounded-[var(--r-sm)] border border-[var(--line)] bg-[var(--bg)] px-3 py-2.5 text-[12px] text-[var(--ink-dim)]",
-                        children: cookieNote
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/modals.tsx",
-                        lineNumber: 811,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "mt-2 text-[10px] leading-relaxed text-[var(--ink-faint)]",
-                        children: "Uses only the Instagram session already on this computer — never asks for or stores your password, never bypasses private accounts."
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/modals.tsx",
-                        lineNumber: 815,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/src/components/modals.tsx",
-                lineNumber: 768,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "mt-4 rounded-[var(--r)] border border-[rgba(34,197,94,0.3)] bg-[rgba(34,197,94,0.06)] p-5",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex items-center gap-2 text-sm font-semibold text-[#86efac]",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shield$2d$check$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ShieldCheck$3e$__["ShieldCheck"], {
-                                size: 15
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/modals.tsx",
-                                lineNumber: 824,
-                                columnNumber: 11
-                            }, this),
-                            " Compliance & safety"
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/components/modals.tsx",
-                        lineNumber: 823,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                        className: "mt-2.5 space-y-1.5 text-[12px] leading-relaxed text-[var(--ink-dim)]",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                className: "flex gap-2",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "text-[var(--gold)]",
-                                        children: "•"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/modals.tsx",
-                                        lineNumber: 828,
-                                        columnNumber: 13
-                                    }, this),
-                                    " Only ",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
-                                        children: "public"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/modals.tsx",
-                                        lineNumber: 828,
-                                        columnNumber: 64
-                                    }, this),
-                                    " content is read — never bypasses login walls, private accounts or authentication."
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/components/modals.tsx",
-                                lineNumber: 827,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                className: "flex gap-2",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "text-[var(--gold)]",
-                                        children: "•"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/modals.tsx",
-                                        lineNumber: 832,
-                                        columnNumber: 13
-                                    }, this),
-                                    " Requests are rate-limited with automatic backoff; sources that hit limits are cooled down, not hammered."
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/components/modals.tsx",
-                                lineNumber: 831,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                className: "flex gap--2 flex gap-2",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "text-[var(--gold)]",
-                                        children: "•"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/modals.tsx",
-                                        lineNumber: 836,
-                                        columnNumber: 13
-                                    }, this),
-                                    " Original creators are credited in every description (Source line + claim-safe notice) — use claim-safe mode for Content ID safety."
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/components/modals.tsx",
-                                lineNumber: 835,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                className: "flex gap-2",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "text-[var(--gold)]",
-                                        children: "•"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/modals.tsx",
-                                        lineNumber: 840,
-                                        columnNumber: 13
-                                    }, this),
-                                    " Instagram changes access rules without notice (hashtag pages were login-walled recently) — discovery adapts or reports honestly instead of faking results."
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/components/modals.tsx",
-                                lineNumber: 839,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                className: "flex gap-2",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "text-[var(--gold)]",
-                                        children: "•"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/modals.tsx",
-                                        lineNumber: 845,
-                                        columnNumber: 13
-                                    }, this),
-                                    " Respect creators' rights: this tool is for personal archival/devotional use — obtain permission before any commercial use."
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/components/modals.tsx",
-                                lineNumber: 844,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/components/modals.tsx",
-                        lineNumber: 826,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/src/components/modals.tsx",
-                lineNumber: 822,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "mt-4 rounded-2xl border border-[var(--line)] p-5",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "text-sm font-semibold text-[var(--ink)]",
-                        children: "Optional real Reel URL inbox"
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/modals.tsx",
-                        lineNumber: 852,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "mt-1 text-[11px] text-[var(--ink-faint)]",
-                        children: "One public URL per line. The engine still verifies topic, metric, duplicate status and MP4 integrity."
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/modals.tsx",
-                        lineNumber: 853,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
-                        value: sourceUrls,
-                        onChange: (e)=>setSourceUrls(e.target.value),
-                        rows: 5,
-                        placeholder: "https://www.instagram.com/reel/SHORTCODE/\nhttps://www.instagram.com/reel/ANOTHER/|premanand-ji-maharaj|25000",
-                        className: "console-mono mt-3 w-full resize-y rounded-xl border border-[var(--line)] bg-[rgba(5,10,20,0.6)] p-3 text-[11px] leading-relaxed text-[var(--ink)] outline-none placeholder:text-[var(--ink-faint)]"
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/modals.tsx",
-                        lineNumber: 856,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/src/components/modals.tsx",
-                lineNumber: 851,
-                columnNumber: 7
-            }, this),
-            message && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "mt-4 rounded-xl border border-[var(--line)] bg-[rgba(96,165,250,0.06)] px-4 py-3 text-xs text-[var(--gold)]",
-                children: message
-            }, void 0, false, {
-                fileName: "[project]/src/components/modals.tsx",
-                lineNumber: 866,
-                columnNumber: 9
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "mt-5 flex items-center justify-between gap-3",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                        className: `chip ${state?.reliableDiscoveryReady ? "!border-[rgba(34,197,94,.5)] !text-[#86efac]" : ""}`,
-                        children: state?.reliableDiscoveryReady ? "reliable source configured" : "free public-search fallback only"
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/modals.tsx",
-                        lineNumber: 871,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                        className: "btn btn-primary",
-                        disabled: busy,
-                        onClick: ()=>void save(),
-                        children: busy ? "Saving…" : "Save & use on next scan"
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/modals.tsx",
-                        lineNumber: 874,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/src/components/modals.tsx",
-                lineNumber: 870,
-                columnNumber: 7
-            }, this)
-        ]
-    }, void 0, true, {
-        fileName: "[project]/src/components/modals.tsx",
-        lineNumber: 717,
+        lineNumber: 344,
         columnNumber: 5
     }, this);
 }
@@ -4695,7 +3629,7 @@ function DiscoveryModal({ onClose, onChanged }) {
                         children: n
                     }, void 0, false, {
                         fileName: "[project]/src/components/modals.tsx",
-                        lineNumber: 890,
+                        lineNumber: 459,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -4703,13 +3637,13 @@ function DiscoveryModal({ onClose, onChanged }) {
                         children: title
                     }, void 0, false, {
                         fileName: "[project]/src/components/modals.tsx",
-                        lineNumber: 893,
+                        lineNumber: 462,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/modals.tsx",
-                lineNumber: 889,
+                lineNumber: 458,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4717,7 +3651,7 @@ function DiscoveryModal({ onClose, onChanged }) {
                 children: desc
             }, void 0, false, {
                 fileName: "[project]/src/components/modals.tsx",
-                lineNumber: 895,
+                lineNumber: 464,
                 columnNumber: 7
             }, this),
             cmd && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("pre", {
@@ -4725,13 +3659,13 @@ function DiscoveryModal({ onClose, onChanged }) {
                 children: cmd
             }, void 0, false, {
                 fileName: "[project]/src/components/modals.tsx",
-                lineNumber: 897,
+                lineNumber: 466,
                 columnNumber: 9
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/modals.tsx",
-        lineNumber: 888,
+        lineNumber: 457,
         columnNumber: 5
     }, this);
 }
@@ -4770,25 +3704,25 @@ function WindowsModal({ onClose }) {
                                 className: "mt-0.5 shrink-0 text-[var(--gold)]"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/modals.tsx",
-                                lineNumber: 924,
+                                lineNumber: 493,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 children: text
                             }, void 0, false, {
                                 fileName: "[project]/src/components/modals.tsx",
-                                lineNumber: 925,
+                                lineNumber: 494,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, i, true, {
                         fileName: "[project]/src/components/modals.tsx",
-                        lineNumber: 923,
+                        lineNumber: 492,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/src/components/modals.tsx",
-                lineNumber: 914,
+                lineNumber: 483,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4801,7 +3735,7 @@ function WindowsModal({ onClose }) {
                         cmd: "cd windows-app\npy -m venv .venv && .venv\\Scripts\\activate\npip install -r requirements.txt"
                     }, void 0, false, {
                         fileName: "[project]/src/components/modals.tsx",
-                        lineNumber: 930,
+                        lineNumber: 499,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Step, {
@@ -4811,7 +3745,7 @@ function WindowsModal({ onClose }) {
                         cmd: "set GEMINI_API_KEY=your-key\nset MISTRAL_API_KEY=your-key\nset NVIDIA_API_KEY=your-key"
                     }, void 0, false, {
                         fileName: "[project]/src/components/modals.tsx",
-                        lineNumber: 931,
+                        lineNumber: 500,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Step, {
@@ -4821,7 +3755,7 @@ function WindowsModal({ onClose }) {
                         cmd: "python install_startup.py"
                     }, void 0, false, {
                         fileName: "[project]/src/components/modals.tsx",
-                        lineNumber: 932,
+                        lineNumber: 501,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Step, {
@@ -4831,7 +3765,7 @@ function WindowsModal({ onClose }) {
                         cmd: "python main.py            :: dashboard + engine\npython main.py --headless  :: background only"
                     }, void 0, false, {
                         fileName: "[project]/src/components/modals.tsx",
-                        lineNumber: 933,
+                        lineNumber: 502,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Step, {
@@ -4841,7 +3775,7 @@ function WindowsModal({ onClose }) {
                         cmd: "pyinstaller --noconfirm --onefile --windowed --name ViralDarshan main.py\n:: output: dist\\ViralDarshan.exe"
                     }, void 0, false, {
                         fileName: "[project]/src/components/modals.tsx",
-                        lineNumber: 934,
+                        lineNumber: 503,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Step, {
@@ -4850,13 +3784,13 @@ function WindowsModal({ onClose }) {
                         desc: "pytest -q\n:: tests enforce: 7/day, one approved video per topic, no duplicates,\n:: IST-midnight rollover and multilingual topic classification"
                     }, void 0, false, {
                         fileName: "[project]/src/components/modals.tsx",
-                        lineNumber: 935,
+                        lineNumber: 504,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/modals.tsx",
-                lineNumber: 929,
+                lineNumber: 498,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4867,20 +3801,20 @@ function WindowsModal({ onClose }) {
                         className: "mt-0.5 shrink-0"
                     }, void 0, false, {
                         fileName: "[project]/src/components/modals.tsx",
-                        lineNumber: 938,
+                        lineNumber: 507,
                         columnNumber: 9
                     }, this),
                     "Compliance: the agent only touches publicly accessible content via yt-dlp's public endpoints, never logs in or bypasses private/account protections, spaces requests, and stops on rate limiting. If Instagram does not expose a view count, the reel is skipped (never guesses ≥1M)."
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/modals.tsx",
-                lineNumber: 937,
+                lineNumber: 506,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/modals.tsx",
-        lineNumber: 907,
+        lineNumber: 476,
         columnNumber: 5
     }, this);
 }
